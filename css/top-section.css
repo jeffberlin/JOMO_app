@@ -17,6 +17,16 @@
 	margin-top: -20px;
 	margin-left: 190px;
 	margin-bottom: 100px;
+	height: 600px;
+}
+
+.description img, .description h4, .form-group {
+	margin-left: -70px;
+}
+
+.description h4 {
+	line-height: 140%;
+	font-size: 24pt;
 }
 
 #timelogo {
@@ -25,16 +35,25 @@
 	padding-top: 20px;
 }
 
-.form-group {
-	margin-top: 30px;
-}
-
 .form-group input {
 	border-bottom: 3px solid #30cf83;
 	border-top: none;
 	border-left: none;
 	border-right: none;
-	width: 400px;
+	width: 70%;
 	box-shadow: none;
-	background: none;
+	background-color: transparent;
+}
+
+.appstore ul li {
+	display: inline-block;
+}
+
+.appstore ul {
+	margin-left: -120px;
+}
+
+.appstore img {
+	height: 60px;
+	margin: 15px;
 }
