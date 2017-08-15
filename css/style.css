@@ -38,7 +38,7 @@
 	border-radius: 0px;
 }
 
-.description h4, #phone, #bottom-info h5, #top-section h4, .form-group input, footer p {
+.description h4, #phone, #bottom-info h5, #top-section h4, .phone-number, footer p {
 	font-family: "GT-Walsheim-Thin";
 	color: #3a4b58;
 }

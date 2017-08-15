@@ -35,18 +35,47 @@
 	padding-top: 20px;
 }
 
-.form-group input {
-	border-bottom: 3px solid #30cf83;
-	border-top: none;
-	border-left: none;
-	border-right: none;
-	width: 50%;
-	box-shadow: none;
-	background-color: transparent;
+form {
+	display: block;
 }
 
 .form-group {
-	padding-bottom: 20px;
+	border-bottom: 3px solid #30cf83;
+	position: relative;
+	width: 55%; 
+}
+
+.form-group input {
+	background-color: transparent;
+	border: 0;
+	width: 55%;
+	outline: none;
+	letter-spacing: .75px;
+}
+
+.input-group {
+	display: table;
+	width: 100%;
+}
+
+.input-group, .input-group-button {
+	display: table-cell;
+}
+
+.input-group-button {
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: center;
+	width: 1%;
+	height: 100%;
+}
+
+.form-group input[type=submit] {
+	background-image: url('images/arrow.png');
+}
+#arrowlogo {
+	width: 20px;
+	float: right;
 }
 
 .appstore ul li {
