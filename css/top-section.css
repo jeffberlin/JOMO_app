@@ -26,12 +26,12 @@
 
 .description h4 {
 	line-height: 140%;
-	font-size: 24pt;
+	font-size: 20pt;
 }
 
 #timelogo {
-	width: 800px;
-	padding-bottom: 40px;
+	width: 600px;
+	padding-bottom: 20px;
 	padding-top: 20px;
 }
 
@@ -40,9 +40,13 @@
 	border-top: none;
 	border-left: none;
 	border-right: none;
-	width: 70%;
+	width: 50%;
 	box-shadow: none;
 	background-color: transparent;
+}
+
+.form-group {
+	padding-bottom: 20px;
 }
 
 .appstore ul li {
@@ -54,6 +58,6 @@
 }
 
 .appstore img {
-	height: 60px;
+	height: 50px;
 	margin: 15px;
 }
