@@ -46,11 +46,16 @@ form {
 }
 
 .form-group input {
-	background-color: transparent;
 	border: 0;
-	width: 55%;
 	outline: none;
-	letter-spacing: .75px;
+}
+
+.input-group input {
+	background-color: transparent;
+	vertical-align: middle;
+	font-size: 18pt;
+	letter-spacing: .95px;
+	width: 55%;
 }
 
 .input-group {
@@ -66,16 +71,8 @@ form {
 	padding-top: 0;
 	padding-bottom: 0;
 	text-align: center;
-	width: 1%;
+	width: 10%;
 	height: 100%;
-}
-
-.form-group input[type=submit] {
-	background-image: url('images/arrow.png');
-}
-#arrowlogo {
-	width: 20px;
-	float: right;
 }
 
 .appstore ul li {
