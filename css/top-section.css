@@ -4,7 +4,6 @@
 
 .header-section {
 	height: 200px;
-	color: #3a4b58;
 }
 
 #mainlogo img {
@@ -24,8 +23,4 @@
 
 #timelogo img {
 	width: 700px;
-}
-
-#timelogo h4 {
-	font-family: "GT-Walsheim-Pro-Trial-Thin";
 }

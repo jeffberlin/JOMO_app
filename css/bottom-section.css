@@ -1,11 +1,15 @@
 #bottom {
-	height: 600px;
+	height: 500px;
 }
 
 #bottom h1 {
 	text-align: center;
-	color: #3a4b58;
 	margin-top: 25px;
+}
+
+#bottom-info {
+	margin-bottom: 100px;
+	text-align: center;
 }
 
 footer h6 {

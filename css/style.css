@@ -3,4 +3,7 @@
 	border-radius: 0px;
 }
 
-#description h4, 
+#description h4, #bottom-info h4, #bottom h1 {
+	font-family: "GT-Walsheim-Pro-Trial-Thin";
+	color: #3a4b58;
+}
