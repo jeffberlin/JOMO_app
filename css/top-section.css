@@ -14,20 +14,19 @@
 }
 
 #phonelogo {
-	/*height: 600px;
-	width: auto;*/
 	margin-top: -20px;
-	margin-left: 180px;
+	margin-left: 190px;
 	margin-bottom: 100px;
 }
 
 #timelogo {
-	/*width: 700px;*/
-	padding-bottom: 50px;
+	width: 800px;
+	padding-bottom: 40px;
+	padding-top: 20px;
 }
 
 .form-group {
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 .form-group input {

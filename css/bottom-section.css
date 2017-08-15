@@ -10,18 +10,40 @@
 #bottom-info {
 	margin-bottom: 100px;
 	text-align: center;
+	margin-top: -200px;
+}
+
+#bottom-info img {
+	padding-bottom: 20px;
 }
 
 #bottom-info h2 {
 	padding-bottom: 20px;
 }
 
-footer {
-	width: 100%;
+#bottom-info h5 {
+	line-height: 140%;
+	letter-spacing: .75px;
 }
 
-footer h6 {
+footer p {
 	padding-left: 100px;
 	margin-bottom: 40px;
 	color: #3a4b58;
+	float: left;
+}
+
+footer ul li {
+	padding: 4px;
+	list-style: none;
+	display: inline-block;
+	float: right;
+}
+
+footer img {
+	height: 25px;
+}
+
+footer ul {
+	padding-right: 100px;
 }

@@ -13,8 +13,24 @@
 	src: url(GT-Walsheim-Pro-Trial-Light-Oblique.otf);
 }
 
-body {
-	min-width: 100%;
+@font-face {
+	font-family: SourceSansPro-Light;
+	src: url(SourceSansPro-Light.otf);
+}
+
+@font-face {
+	font-family: UntitledSansTest-Bold;
+	src: url(UntitledSansTest-Bold.otf);
+}
+
+@font-face {
+	font-family: UntitledSansTest-Light;
+	src: url(UntitledSansTest-Light.otf);
+}
+
+@font-face {
+	font-family: UntitledSansTest-Medium;
+	src: url(UntitledSansTest-Medium.otf);
 }
 
 .jumbotron {
@@ -22,7 +38,7 @@ body {
 	border-radius: 0px;
 }
 
-.description h4, #bottom-info h4, #phone {
+.description h4, #phone, #bottom-info h5, #top-section h4, .form-group input, footer p {
 	font-family: "GT-Walsheim-Thin";
 	color: #3a4b58;
 }
