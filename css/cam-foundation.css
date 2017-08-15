@@ -9,18 +9,18 @@
 	padding-left: 225px;
 }
 
-.cam h2 {
+.cnf {
+	
+}
+
+.cnf h2 {
 	color: #e0e645;
 	padding-top: 30px;
 	text-align: justify;
 }
 
-.cnf {
+.cnf h7 {
 	margin-right: 25%;
 	margin-bottom: -100px;
-}
-
-.info {
 	color: #ffffff;
-	text-align: justify;
 }
