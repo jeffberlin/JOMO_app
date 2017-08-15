@@ -1,0 +1,26 @@
+.cam {
+	height: 500px;
+	background-color: #3a4b58;
+	display: flex;
+}
+
+#cam-logo img {
+	height: 200px;
+	padding-left: 225px;
+}
+
+.cam h2 {
+	color: #e0e645;
+	padding-top: 30px;
+	text-align: justify;
+}
+
+.cnf {
+	margin-right: 25%;
+	margin-bottom: -100px;
+}
+
+.info {
+	color: #ffffff;
+	text-align: justify;
+}

@@ -1,0 +1,15 @@
+#bottom {
+	height: 600px;
+}
+
+#bottom h1 {
+	text-align: center;
+	color: #3a4b58;
+	margin-top: 25px;
+}
+
+footer h6 {
+	padding-left: 100px;
+	margin-bottom: 40px;
+	color: #3a4b58;
+}

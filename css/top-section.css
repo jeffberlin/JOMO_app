@@ -1,0 +1,25 @@
+.top-section {
+	height: 700px;
+}
+
+.header-section {
+	height: 200px;
+	color: #3a4b58;
+}
+
+#mainlogo img {
+	height: 50px;
+	margin: 30px;
+}
+
+.phonelogo img {
+	height: 500px;
+}
+
+#timelogo img {
+	width: 500px;
+}
+
+#about {
+	width: 600px;
+}
