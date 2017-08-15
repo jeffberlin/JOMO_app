@@ -1,9 +1,33 @@
+@font-face {
+	font-family: GT-Walsheim-Medium;
+	src: url(GT-Walsheim-Pro-Trial-Medium.otf);
+}
+
+@font-face {
+	font-family: GT-Walsheim-Thin;
+	src: url(GT-Walsheim-Pro-Trial-Thin.otf);
+}
+
+@font-face {
+	font-family: GT-Walsheim-Oblique;
+	src: url(GT-Walsheim-Pro-Trial-Light-Oblique.otf);
+}
+
+body {
+	min-width: 100%;
+}
+
 .jumbotron {
 	width: 100%;
 	border-radius: 0px;
 }
 
-#description h4, #bottom-info h4, #bottom h1 {
-	font-family: "GT-Walsheim-Pro-Trial-Thin";
+.description h4, #bottom-info h4, #phone {
+	font-family: "GT-Walsheim-Thin";
+	color: #3a4b58;
+}
+
+#bottom-info h2, #bottom-header h1 {
+	font-family: "GT-Walsheim-Medium";
 	color: #3a4b58;
 }

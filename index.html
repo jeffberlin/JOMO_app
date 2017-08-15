@@ -3,23 +3,23 @@
 <html>
 	<head profile="http://www.w3.org/TR/html4/strict.dtd">
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" type="image/png" href="images/JOM_Favicon_16x16.png" style="width: 15px;">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" type="image/png" href="images/colon2_favicon_16x16.png" style="width: 15px;">
 		<title>JOMO - Joy of Missing Out</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
 		<link rel="stylesheet" href="css/top-section.css">
 		<link rel="stylesheet" href="css/cam-foundation.css">
 		<link rel="stylesheet" href="css/partnership.css">
 		<link rel="stylesheet" href="css/bottom-section.css">
-		<link rel="stylesheet" href="css/responsive.css">
-
+		
 	</head>
 	<body>
 
 		<!-- TOP SECTION -->
 
-		<div class="top-section">
+		<div class="top-section" style="background-image: url('charlotte.jpg');">
 
 			<div class="container-fluid col-md-12">
 
@@ -27,7 +27,7 @@
 
 					<div class="header-section">
 
-						<h1 id="mainlogo"><img src="images/JOM_Logotype_RGB_GRN-01.png"></h1>
+						<img src="images/logo.png" class="img-fluid">
 
 					</div>
 
@@ -35,25 +35,27 @@
 
 			</div>
 
-			<div class="row" style="text-align: center;">
+			<div class="row container-fluid justify-content-around">
 
-				<div class="container-fluid col-md-4">
+				<div class="col-md-4">
 
-					<div class="phonelogo">
-
-						<h1><img src="images/android_phone_04.jpg"></h1>
-
-					</div>
+					<img src="images/phone.png" id="phonelogo" class="img-fluid">
 
 				</div>
 
-				<div class="container-fluid col-md-8" id="description">
+				<div class="col-md-6" class="description">
 
-					<h1 id="timelogo"><img src="images/jomo-logo.png"></h1>
+					<img src="images/jomo-logo copy.png" id="timelogo" class="img-fluid">
 
 					<h4>Experience the Joy of Missing Out. JOMO makes it quick<br>and easy to have a great time.</h4>
 
-					<h4 style="padding-top: 10px;">We'll text you a link to download JOMO.</h4>
+					<h4 style="padding-top: 20px;">We'll text you a link to download JOMO.</h4>
+
+					<div class="form-group">
+						
+						<input type="phone" class="form-control" id="phone" placeholder="(000)000-0000">
+
+					</div>
 
 				</div>
 
@@ -69,7 +71,7 @@
 
 				<div class="jumbotron cam">
 
-					<h1 id="cam-logo"><img src="images/JOM_Stacked-Logotype_RGB_GRN-01.png"></h1>
+					<img src="images/cam-logo.png" id="cam-logo" class="img-fluid">
 
 					<div class="cnf">
 
@@ -93,7 +95,7 @@
 
 				<div class="jumbotron partners">
 
-					<h1 id="stacklogo"><img src="images/JOM_Stacked-Logotype_RGB_GRN-01.png"></h1>
+					<h1 id="stacklogo"><img src="images/JOM_Stacked-Logotype_RGB_GRN-01 copy.png" class="img-fluid"></h1>
 
 				</div>
 
@@ -103,39 +105,46 @@
 
 		<!-- BOTTOM / FOOTER SECTION -->
 
-		<div class="row">
-
-			<div class="container-fluid col-md-12" id="bottom">
+		
+		<div class="container-fluid" id="bottom-header">
 
 				<h1>Discover the joy of missing out</h1>
 
+		</div>
+
+		<div class="container features">
+
+			<div class="row" id="bottom-info">
+
+				<div class="col-md-4">
+
+					<h2>People</h2>
+
+					<h4>Meet new people that share your<br>interests or meet up with the people<br>you already love.</h4>
+
+				</div>
+
+				<div class="col-md-4">
+
+					<h2>Places</h2>
+					
+					<h4>Keep tabs on events and get<br>togethers at all of your favorite<br>community spots.</h4>
+
+				</div>
+
+				<div class="col-md-4">
+
+					<h2>Activities</h2>
+					
+					<h4>Gardening, kayaking, craft beer,<br>tech. What peaks your interest?<br>We've got something going on.</h4>
+
+				</div>
+
 			</div>
 
 		</div>
 
-		<div class="row" id="bottom-info">
-
-			<div class="container-fluid col-md-4">
-
-				<h4>Meet new people that share your<br>interests or meet up with the people<br>you already love.</h4>
-
-			</div>
-
-			<div class="container-fluid col-md-4">
-				
-				<h4>Keep tabs on events and get<br>togethers at all of your favorite<br>community spots.</h4>
-
-			</div>
-
-			<div class="container-fluid col-md-4">
-				
-				<h4>Gardening, kayaking, craft beer,<br>tech. What peaks your interest?<br>We've got something going on.</h4>
-
-			</div>
-
-		</div>
-
-		<footer>
+		<footer class="container-fluid">
 
 			<h6>&copy; 2017 JOMO, Inc.</h6>
 

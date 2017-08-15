@@ -4,22 +4,24 @@
 	display: flex;
 }
 
-#cam-logo img {
-	height: 200px;
+#cam-logo {
+	/*height: 200px;*/
 	padding-left: 225px;
 }
 
 .cnf {
-	
+
 }
 
 .cnf h2 {
+	font-family: "GT-Walsheim-Medium";
 	color: #e0e645;
 	padding-top: 30px;
 	text-align: justify;
 }
 
 .cnf h7 {
+	font-family: "GT-Walsheim-Thin";
 	margin-right: 25%;
 	margin-bottom: -100px;
 	color: #ffffff;

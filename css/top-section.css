@@ -1,26 +1,41 @@
 .top-section {
-	height: 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .header-section {
 	height: 200px;
 }
 
-#mainlogo img {
+.header-section img {
 	width: 250px;
 	margin: 30px;
 }
 
-.phonelogo img {
-	height: 610px;
-	margin-top: -90px;
-	margin-left: 20px;
+#phonelogo {
+	/*height: 600px;
+	width: auto;*/
+	margin-top: -20px;
+	margin-left: 180px;
+	margin-bottom: 100px;
 }
 
-#description {
-	margin-left: -100px;
+#timelogo {
+	/*width: 700px;*/
+	padding-bottom: 50px;
 }
 
-#timelogo img {
-	width: 700px;
+.form-group {
+	margin-top: 20px;
+}
+
+.form-group input {
+	border-bottom: 3px solid #30cf83;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 400px;
+	box-shadow: none;
+	background: none;
 }

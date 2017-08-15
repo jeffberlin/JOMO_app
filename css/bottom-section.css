@@ -1,15 +1,23 @@
-#bottom {
-	height: 500px;
+#bottom-header {
+	height: 370px;
 }
 
-#bottom h1 {
+#bottom-header h1 {
 	text-align: center;
-	margin-top: 25px;
+	padding-top: 40px;
 }
 
 #bottom-info {
 	margin-bottom: 100px;
 	text-align: center;
+}
+
+#bottom-info h2 {
+	padding-bottom: 20px;
+}
+
+footer {
+	width: 100%;
 }
 
 footer h6 {
