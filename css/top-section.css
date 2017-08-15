@@ -8,18 +8,24 @@
 }
 
 #mainlogo img {
-	height: 50px;
+	width: 250px;
 	margin: 30px;
 }
 
 .phonelogo img {
-	height: 500px;
+	height: 610px;
+	margin-top: -90px;
+	margin-left: 20px;
+}
+
+#description {
+	margin-left: -100px;
 }
 
 #timelogo img {
-	width: 500px;
+	width: 700px;
 }
 
-#about {
-	width: 600px;
+#timelogo h4 {
+	font-family: "GT-Walsheim-Pro-Trial-Thin";
 }
