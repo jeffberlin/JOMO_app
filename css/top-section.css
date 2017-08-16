@@ -15,11 +15,15 @@
 	margin: 30px;
 }
 
-#phonelogo {
+.phonelogo {
 	margin-top: -20px;
-	margin-left: 190px;
+	margin-left: 250px;
 	margin-bottom: 100px;
-	height: 600px;
+	/*height: 600px;*/
+}
+
+.phonelogo img {
+	width: 295px;
 }
 
 .description img, .description h4, .form-group {
@@ -87,6 +91,6 @@ form {
 }
 
 .appstore img {
-	height: 50px;
+	width: 169px;
 	margin: 15px;
 }

@@ -49,3 +49,8 @@
 	font-family: "GT-Walsheim-Medium";
 	color: #3a4b58;
 }
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
