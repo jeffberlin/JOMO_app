@@ -5,35 +5,7 @@
 	background-color: #d2d4d3;
 }
 
-#stacklogo {
+.partners img {
 	height: 150px;
 	padding-left: 100px;
-}
-
-.map {
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 600px;
-	border-top: 1px solid #30cf83;
-	border-bottom: 1px solid #30cf83;
-	margin-top: -32px;
-}
-
-.phonemap {
-	width: 300px;
-	vertical-align: middle;
-	display: inline-block;
-	margin-left: 300px;
-}
-
-.align-middle {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-.short-rule {
-	background: #e0e645;
-	height: 4px;
-	width: 50px;
-	margin: 30px 0;
 }

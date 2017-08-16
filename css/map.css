@@ -1,0 +1,48 @@
+/* Code created for the JOMO, Inc. website. Designed by Ryan Payne, code written by Jeff Berlin */
+
+.map {
+	background-position: top center;
+	background-repeat: no-repeat;
+	height: 620px;
+	border-top: 1px solid #30cf83;
+	border-bottom: 1px solid #30cf83;
+	margin-top: -32px;
+	width: 100%;
+}
+
+.vertical-align {
+	display: table;
+}
+
+.phonemap img {
+	width: 300px;
+	margin-left: 75%;
+	margin-top: 82px;
+}
+
+.align-middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.vertical-margin {
+	margin-left: 380px;
+	margin-top: 16%;
+	vertical-align: middle;
+}
+
+.vertical-margin h2 {
+	font-weight: 700;
+	font-size: 30pt;
+}
+
+.vertical-margin p {
+	font-size: 20pt;
+}
+
+/*.short-rule {
+	background: #30cf83;
+	height: 6px;
+	width: 60px;
+	margin: 30px 0;
+}*/

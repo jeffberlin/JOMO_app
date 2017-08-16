@@ -30,12 +30,10 @@ footer {
 
 footer p {
 	padding-left: 100px;
-/*	margin-bottom: 40px;
-*/	color: #3a4b58;
-	float: left;
+	color: #3a4b58;
 }
 
-footer ul li {
+.social-media li {
 	padding: 4px;
 	list-style: none;
 	display: inline-block;
@@ -46,6 +44,6 @@ footer img {
 	height: 25px;
 }
 
-footer ul {
+.social-media {
 	padding-right: 100px;
 }

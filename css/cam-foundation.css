@@ -6,9 +6,9 @@
 	display: flex;
 }
 
-#cam-logo {
-	padding-left: 225px;
-	width: 451px;
+.cam img {
+	width: 18%;
+	margin-left: 225px;
 }
 
 .cnf {

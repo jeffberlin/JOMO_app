@@ -40,12 +40,12 @@
 	border-radius: 0px;
 }
 
-.description h4, #phone, #bottom-info h5, #top-section h4, #phone input, footer p {
+.description h4, #top-section h4, #phone, #phone input, .vertical-margin p, #bottom-info h5, footer p {
 	font-family: "GT-Walsheim-Thin";
 	color: #3a4b58;
 }
 
-#bottom-info h2, #bottom-header h1 {
+#bottom-info h2, #bottom-header h1, .vertical-margin h2 {
 	font-family: "GT-Walsheim-Medium";
 	color: #3a4b58;
 }
