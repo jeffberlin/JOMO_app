@@ -3,9 +3,23 @@
 .partners {
 	margin-top: -32px;
 	background-color: #d2d4d3;
+	height: 470px;
+	width: 100%;
 }
 
 .partners img {
 	height: 150px;
 	padding-left: 100px;
+}
+
+.partners h1 {
+	text-align: center;
+	margin-top: 2%;
+}
+
+.short-rule {
+	background: #30cf83;
+	height: 4px;
+	width: 8%;
+	margin: 30px auto;
 }
