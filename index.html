@@ -56,11 +56,11 @@
 
 					<div class="input-phone-form">
 
-						<form class="form-group">
+						<form class="form-group" onsubmit="sendSMS(this); return false;">
 
 							<div class="input-group">
 							
-								<input type="phone" class="input-group-field phone-number" id="phone" placeholder="(000) 000-0000">
+								<input class="input-group-field phone-number" id="phone" placeholder="(000) 000-0000" type="tel" name="phone">
 
 							</div>
 
@@ -127,6 +127,8 @@
 					<h1>Thanks to our partners</h1>
 
 					<div class="short-rule"></div>
+
+					<!-- <img class="img-fluid"> -->
 					
 				</div>
 
