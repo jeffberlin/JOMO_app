@@ -1,7 +1,7 @@
 # JOMO
 Webpage for JOMO, Inc.
 
-## To download:
+## To download and run:
 * Either 'clone' or download the .zip files
 * Open the browser of your choice
 * Go to 'File', 'Open', then select the `index.html` file
