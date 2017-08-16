@@ -7,3 +7,12 @@
 	height: 150px;
 	padding-left: 100px;
 }
+
+.map {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	border-bottom: 1px solid #30cf83;
+	margin-top: -32px;
+}

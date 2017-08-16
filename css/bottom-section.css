@@ -22,10 +22,14 @@
 	letter-spacing: .75px;
 }
 
+footer {
+	height: 100px;
+}
+
 footer p {
 	padding-left: 100px;
-	margin-bottom: 40px;
-	color: #3a4b58;
+/*	margin-bottom: 40px;
+*/	color: #3a4b58;
 	float: left;
 }
 
