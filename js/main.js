@@ -1,3 +1,12 @@
+// Code created for the JOMO, Inc. website. Designed by Ryan Payne, code written by Jeff Berlin
+
+// Opens all links in a new tab
+var links =  document.links;
+for (var i = 0; i < links.length; i++) {
+	links[i].target = "_blank";
+}
+
+// Handles phone number input
 function phoneFormat(input) {
 	input = input.replace(/\D/g, '');
 	input = input.substring(0,10);

@@ -1,3 +1,5 @@
+/* Code created for the JOMO, Inc. website. Designed by Ryan Payne, code written by Jeff Berlin */
+
 .partners {
 	margin-top: -32px;
 	background-color: #d2d4d3;
@@ -11,7 +13,6 @@
 .map {
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
 	height: 600px;
 	border-bottom: 1px solid #30cf83;
 	margin-top: -32px;
