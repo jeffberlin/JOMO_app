@@ -7,26 +7,25 @@
 }
 
 .cam img {
-	width: 18%;
+	width: 280px;
 	margin-left: 225px;
 }
 
-.cnf {
+.donating {
 	margin-left: 200px;
 }
 
-.cnf h2 {
+.donating h2 {
 	font-family: "GT-Walsheim-Medium";
 	color: #e0e645;
 	padding-top: 30px;
-	text-align: justify;
 	letter-spacing: .75px;
 	padding-bottom: 15px;
 	font-size: 28pt;
 	line-height: 130%;
 }
 
-.cnf h7 {
+.donating h7 {
 	font-family: "GT-Walsheim-Thin";
 	margin-right: 25%;
 	margin-bottom: -100px;

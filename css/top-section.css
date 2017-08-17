@@ -5,7 +5,8 @@
 }
 
 .top-section {
-	display: table;
+	display: inline-flex;
+	margin-bottom: 100px;
 }
 
 .jomo-logo {
@@ -13,24 +14,15 @@
 }
 
 .jomo-logo img {
-	height: 60px;
+	width: 250px;
 	margin: 30px;
 }
 
-.align-section {
-	display: table-cell;
-	vertical-align: middle;
-}
-
 .phone-img img {
-	height: 601px;
-	margin-left: 97%;
-	margin-top: -30px;
+	width: 295px;
 }
 
-.align-vertical {
-	margin-left: 440px;
-	margin-top: 2%;
+.time-logo-section {
 	vertical-align: middle;
 }
 
@@ -52,8 +44,8 @@ form {
 .form-group {
 	border-bottom: 3px solid #30cf83;
 	position: relative;
-	width: 70%;
 	margin-bottom: 20px;
+	width: 390px;
 }
 
 .form-group input {
@@ -66,16 +58,14 @@ form {
 	vertical-align: middle;
 	font-size: 18pt;
 	letter-spacing: .95px;
-	width: 55%;
 }
 
-.input-group-field input {
-	min-width: 165px;
+.phone-number input {
+	width: 185px;
 }
 
 .input-group {
 	display: table;
-	width: 100%;
 }
 
 .input-group, .input-group-button {
@@ -101,8 +91,4 @@ form {
 .input-phone-form img {
 	width: 169px;
 	margin: 15px;
-}
-
-.input-phone-form ul, .phone-img img {
-	margin-bottom: 100px;
 }
