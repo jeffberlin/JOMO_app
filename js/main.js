@@ -32,8 +32,8 @@ for (var i = 0; i < links.length; i++) {
 }
 
 // Handles phone number input
-var zChar = new Array(' ', '(', ')', '-', '.');
-var maxphonelength = 13;
+var zChar = new Array(' ', '(', ') ', '-', '.');
+var maxphonelength = 14;
 var phonevalue1;
 var phonevalue2;
 var cursorposition;
@@ -105,19 +105,19 @@ function ValidatePhone(object) {
     } else if (p.length == 3) {
         pp = p;
         d4 = p.indexOf('(')
-        d5 = p.indexOf(')')
+        d5 = p.indexOf(') ')
         if (d4 == -1) {
             pp = "(" + pp;
         }
         if (d5 == -1) {
-            pp = pp + ")";
+            pp = pp + ") ";
         }
         object.value = pp;
     } else if (p.length > 3 && p.length < 7) {
         p = "(" + p;
         l30 = p.length;
         p30 = p.substring(0, 4);
-        p30 = p30 + ")"
+        p30 = p30 + ") "
 
         p31 = p.substring(4, l30);
         pp = p30 + p31;
@@ -128,16 +128,16 @@ function ValidatePhone(object) {
         p = "(" + p;
         l30 = p.length;
         p30 = p.substring(0, 4);
-        p30 = p30 + ")"
+        p30 = p30 + ") "
 
         p31 = p.substring(4, l30);
         pp = p30 + p31;
 
         l40 = pp.length;
-        p40 = pp.substring(0, 8);
+        p40 = pp.substring(0, 9);
         p40 = p40 + "-"
 
-        p41 = pp.substring(8, l40);
+        p41 = pp.substring(9, l40);
         ppp = p40 + p41;
 
         object.value = ppp.substring(0, maxphonelength);
@@ -156,7 +156,7 @@ function ValidatePhone(object) {
             cursorposition = cursorposition + 2
         } else if (cursorposition == 7) {
             cursorposition = cursorposition + 4
-            e1 = object.value.indexOf(')')
+            e1 = object.value.indexOf(') ')
             e2 = object.value.indexOf('-')
             if (e1 > -1 && e2 > -1) {
                 if (e2 - e1 == 4) {
