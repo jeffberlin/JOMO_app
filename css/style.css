@@ -35,6 +35,11 @@
 	src: url(UntitledSansTest-Medium.otf);
 }
 
+html, body {
+	overflow-x: hidden;
+	width: 100%;
+}
+
 .jumbotron {
 	width: 100%;
 }
