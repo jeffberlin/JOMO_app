@@ -1,33 +1,49 @@
 /* Code created for the JOMO, Inc. website. Designed by Ryan Payne, code written by Jeff Berlin */
 
-.top-section {
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+.header {
+	width: 100%;
+	height: 870px;
 }
 
-.header-section {
+.top-section {
+	display: table;
+}
+
+.jomo-logo {
 	height: 200px;
 }
 
-.header-section img {
-	width: 250px;
+.jomo-logo img {
+	height: 60px;
 	margin: 30px;
 }
 
-.phonelogo {
-	margin-top: -20px;
-	margin-left: 265px;
-	margin-bottom: 100px;
+.align-section {
+	display: table-cell;
+	vertical-align: middle;
 }
 
-.phonelogo img {
+/*.phone-img {
+	margin-top: -30px;
+	margin-bottom: 200px;
+}*/
+
+.phone-img img {
 	width: 295px;
+	margin-left: 97%;
+	margin-top: -30px;
+	margin-bottom: 200px;
 }
 
-.description img, .description h4, .form-group {
-	margin-left: -70px;
+.align-vertical {
+	margin-left: 440px;
+	margin-top: 2%;
+	vertical-align: middle;
 }
+
+/*.description img, .description h4, .form-group {
+	margin-left: -70px;
+}*/
 
 .description h4 {
 	line-height: 140%;
@@ -47,7 +63,7 @@ form {
 .form-group {
 	border-bottom: 3px solid #30cf83;
 	position: relative;
-	width: 55%;
+	width: 70%;
 	margin-bottom: 20px;
 }
 
@@ -81,15 +97,15 @@ form {
 	height: 100%;
 }
 
-.appstore ul li {
+.input-phone-form ul li {
 	display: inline-block;
 }
 
-.appstore ul {
-	margin-left: -120px;
+.input-phone-form ul {
+	margin-left: -55px;
 }
 
-.appstore img {
+.input-phone-form img {
 	width: 169px;
 	margin: 15px;
 }

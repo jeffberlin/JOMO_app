@@ -22,66 +22,68 @@
 
 		<!-- TOP SECTION -->
 
-		<div class="top-section" style="background-image: url('charlotte2.jpg');">
+		<div class="container-fluid col-md-12 justify-content-around" >
 
-			<div class="container-fluid col-md-12">
+			<div class="row">
 
-				<div class="row">
+				<div class="header" style="background-image: url('charlotte2.jpg'); background-position: center;background-repeat: no-repeat; background-size: cover;">
 
-					<div class="header-section">
+					<div class="jomo-logo">
 
 						<img src="images/JOM_Logotype_RGB_GRN-01 copy.png" class="img-fluid">
 
 					</div>
 
-				</div>
+					<div class="top-section"> <!-- vertical align -->
 
-			</div>
+						<div class="align-section phone-img">
 
-			<div class="row container-fluid justify-content-around">
+							<img src="images/phone2" class="img-fluid">
 
-				<div class="col-md-4 phonelogo">
+						</div>
 
-					<img src="images/phone2" class="img-fluid">
+						<div class="align-section float-right">
 
-				</div>
+							<div class="align-vertical"> <!-- vertical margin -->
 
-				<div class="col-md-6 description">
+								<img src="images/time-logo.png" id="timelogo" class="img-fluid">
 
-					<img src="images/time-logo.png" id="timelogo" class="img-fluid">
+								<h4>Experience the Joy of Missing Out. JOMO makes it quick<br>and easy to have a great time.</h4>
 
-					<h4>Experience the Joy of Missing Out. JOMO makes it quick<br>and easy to have a great time.</h4>
+								<h4 style="padding-top: 20px; padding-bottom: 20px;">We'll text you a link to download JOMO.</h4>
 
-					<h4 style="padding-top: 20px; padding-bottom: 20px;">We'll text you a link to download JOMO.</h4>
+								<div class="input-phone-form">
 
-					<div class="input-phone-form">
+									<form class="form-group" onsubmit="sendSMS(this); return false;">
 
-						<form class="form-group" onsubmit="sendSMS(this); return false;">
+										<div class="input-group">
+										
+											<input class="input-group-field phone-number" id="phone" placeholder="(000) 000-0000" type="tel" name="phone" onkeydown="javascript:backspacerDOWN(this,event);" onkeyup="javascript:backspacerUP(this,event);">
 
-							<div class="input-group">
-							
-								<input class="input-group-field phone-number" id="phone" placeholder="(000) 000-0000" type="tel" name="phone" onkeydown="javascript:backspacerDOWN(this,event);" onkeyup="javascript:backspacerUP(this,event);">
+										</div>
+
+										<div class="input-group-button">
+
+											<input type="image" src="images/android-arrow-up-right.png" class="button" alt="Submit" style="background-color: transparent; background-repeat: no-repeat; width: 20px; vertical-align: middle;">
+										
+										</div>
+
+									</form>
+
+								<!-- </div>
+								
+								<div class="appstore"> -->
+
+									<ul>
+										<li><a href="#"><img src="images/apple-appstore.png"></a></li>
+									
+										<li><a href="https://play.google.com/store/apps/details?id=com.jomoapp.jomo"><img src="images/google-appstore.png"></a></li>
+									</ul>
+
+								</div>
 
 							</div>
-
-							<div class="input-group-button">
-
-								<input type="image" src="images/android-arrow-up-right.png" class="button" alt="Submit" style="background-color: transparent; background-repeat: no-repeat; width: 20px; vertical-align: middle;">
-							
-							</div>
-
-						</form>
-
-					</div>
-					
-					<div class="appstore">
-
-						<ul>
-							<li><a href="#"><img src="images/apple-appstore.png"></a></li>
-						
-							<li><a href="https://play.google.com/store/apps/details?id=com.jomoapp.jomo"><img src="images/google-appstore.png"></a></li>
-						</ul>
-
+						</div>
 					</div>
 
 				</div>
@@ -96,7 +98,7 @@
 
 			<div class="row">
 
-				<div class="jumbotron cam">
+				<div class="jumbotron jumbotron-fluid cam">
 
 					<img src="images/camfoundation.png" class="img-fluid">
 
@@ -116,7 +118,7 @@
 
 		<!-- PARTNERSHIP SECTION -->
 
-		<div class="container-fluid col-md-12">
+		<div class="container-fluid">
 
 			<div class="row">
 
@@ -128,68 +130,80 @@
 
 					<div class="short-rule"></div>
 
-					<div class="partners">
+					<div class="col-md-12 partners row">
 
-						<ul>
+						<div class="col-md-3">
 
-							<li><img class="img-fluid" src="../JOMO partners images/whitewater-center.png"></li>
+							<img class="img-fluid" src="../JOMO partners images/whitewater-center.png">
 
-							<li><img class="img-fluid" src="../JOMO partners images/opera-carolina copy.png"></li>
+						</div>
 
-							<li><img class="img-fluid" src="../JOMO partners images/Charlotte-Checkers-logo-featured-.png"></li>
+						<div class="col-md-3">
 
-							<li><img class="img-fluid" src="../JOMO partners images/DP_Logo-HORIZ-wTAG-CLR.png"></li>
+							<img class="img-fluid" src="../JOMO partners images/opera-carolina copy.png">
 
-						</ul>
+						</div>
 
-					</div>
+						<div class="col-md-3">
 
-					<div class="partners">
+							<img class="img-fluid" src="../JOMO partners images/Charlotte-Checkers-logo-featured-.png">
+
+						</div>
+
+						<div class="col-md-3">
+
+							<img class="img-fluid" src="../JOMO partners images/DP_Logo-HORIZ-wTAG-CLR.png">
+
+						</div>
+					
+
+						<div class="col-md-3">
+
+							<img class="img-fluid" src="../JOMO partners images/comedy-zone copy.png">
+
+						</div>
+
+						<div class="col-md-3">
+
+							<img class="img-fluid" src="../JOMO partners images/fillmore.png">
+
+						</div>
+
+						<div class="col-md-3">
+
+							<img class="img-fluid" src="../JOMO partners images/defygravitylogorev.png">
+
+						</div>
+
+						<div class="col-md-3">
+
+							<img class="img-fluid" src="../JOMO partners images/tts.png">
 						
-						<ul>
+						</div>
 
-							<li><img class="img-fluid" src="../JOMO partners images/comedy-zone copy.png"></li>
+						<div class="col-md-3">
 
-							<li><img class="img-fluid" src="../JOMO partners images/fillmore.png"></li>
+							<img class="img-fluid" src="../JOMO partners images/unknown copy.png">
 
-							<li><img class="img-fluid" src="../JOMO partners images/defygravitylogorev.png"></li>
+						</div>
 
-							<li><img class="img-fluid" src="../JOMO partners images/tts.png"></li>
+						<div class="col-md-3">
+
+							<img class="img-fluid" src="../JOMO partners images/roaring-riot.png">
+
+						</div>
+
+						<div class="col-md-3">
+							<img class="img-fluid" src="../JOMO partners images/beer-week.png">
+
+						</div>
+
+						<div class="col-md-3">
+
+							<img class="img-fluid" src="../JOMO partners images/packard-place.png">
+
+						</div>
 							
-						</ul>
-
-					</div>
-
-					<div class="partners">
-						
-						<ul>
-
-							<li><img class="img-fluid" src="../JOMO partners images/unknown copy.png"></li>
-
-							<li><img class="img-fluid" src="../JOMO partners images/fillmore.png"></li>
-
-							<li><img class="img-fluid" src="../JOMO partners images/defygravitylogorev.png"></li>
-
-							<li><img class="img-fluid" src="../JOMO partners images/tts.png"></li>
-							
-						</ul>
-
-					</div>
-
-					<div class="partners">
-						
-						<ul>
-
-							<li><img class="img-fluid" src="../JOMO partners images/comedy-zone copy.png"></li>
-
-							<li><img class="img-fluid" src="../JOMO partners images/fillmore.png"></li>
-
-							<li><img class="img-fluid" src="../JOMO partners images/defygravitylogorev.png"></li>
-
-							<li><img class="img-fluid" src="../JOMO partners images/tts.png"></li>
-							
-						</ul>
-
 					</div>
 					
 				</div>

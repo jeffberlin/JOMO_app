@@ -37,10 +37,9 @@
 
 .jumbotron {
 	width: 100%;
-	border-radius: 0px;
 }
 
-.description h4, #top-section h4, #phone, #phone input, .vertical-margin p, #bottom-info h5, footer p {
+.align-vertical h4, #top-section h4, #phone, #phone input, .vertical-margin p, #bottom-info h5, footer p {
 	font-family: "GT-Walsheim-Thin";
 	color: #3a4b58;
 }

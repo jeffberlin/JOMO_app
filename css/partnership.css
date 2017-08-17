@@ -27,14 +27,13 @@
 
 .partners {
 	text-align: center;
+	margin: 0;
 }
 
 .partners img {
 	height: 80px;
 }
 
-.partners ul li {
-	display: table-cell;
-	list-style: none;
-	padding: 20px;
+.partners div {
+	margin-top: 20px;
 }
