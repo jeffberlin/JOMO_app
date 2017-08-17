@@ -22,16 +22,10 @@
 	vertical-align: middle;
 }
 
-/*.phone-img {
-	margin-top: -30px;
-	margin-bottom: 200px;
-}*/
-
 .phone-img img {
-	width: 295px;
+	height: 601px;
 	margin-left: 97%;
 	margin-top: -30px;
-	/*margin-bottom: 100px;*/
 }
 
 .align-vertical {
@@ -39,10 +33,6 @@
 	margin-top: 2%;
 	vertical-align: middle;
 }
-
-/*.description img, .description h4, .form-group {
-	margin-left: -70px;
-}*/
 
 .description h4 {
 	line-height: 140%;
@@ -77,6 +67,10 @@ form {
 	font-size: 18pt;
 	letter-spacing: .95px;
 	width: 55%;
+}
+
+.input-group-field input {
+	min-width: 165px;
 }
 
 .input-group {

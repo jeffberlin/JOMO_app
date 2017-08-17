@@ -33,15 +33,15 @@ footer p {
 	color: #3a4b58;
 }
 
+footer img {
+	height: 25px;
+}
+
 .social-media li {
 	padding: 4px;
 	list-style: none;
 	display: inline-block;
 	float: right;
-}
-
-footer img {
-	height: 25px;
 }
 
 .social-media {
