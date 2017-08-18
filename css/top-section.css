@@ -10,18 +10,19 @@
 */}
 
 .jomo-logo {
-	width: 200px;
-	margin: 30px;
+	/*width: 200px;*/
+	margin: 5%;
 	margin-bottom: 50px;
 }
 
 .time-logo-section {
-	margin-top: 5rem;
+	/*margin-top: 3rem;*/
 	padding-left: 5rem;
 	margin-bottom: 5rem;
+	padding-top: 5rem;
 }
 
-.time-logo-section h4 {
+.time-logo-section h3 {
 	line-height: 140%;
 }
 
@@ -44,6 +45,7 @@ form {
 	border-bottom: 3px solid #30cf83;
 	width: 100%;
 	position: relative;
+	min-width: 224px;
 }
 
 .form-group {
@@ -84,4 +86,6 @@ form {
 .time-logo-section a img {
 	width: 165px;
 	display: inline-block;
+	padding: 10px;
+	padding-left: 0px;
 }

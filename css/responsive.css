@@ -18,3 +18,29 @@
 		margin-bottom: 6rem;
 	}
 }
+
+@media (max-width: 823px) {
+
+	.time-logo-section h3, #phone, #phone input {
+		font-size: 16pt;
+	}
+}
+
+@media (max-width: 699px) {
+
+	
+}
+
+@media (max-width: 630px) {
+
+	.time-logo-section a img {
+		padding: 5px;
+	}
+}
+
+@media (max-width: 543px) {
+
+	.time-logo-section h3, #phone, #phone input {
+		font-size: 14pt;
+	}
+}
