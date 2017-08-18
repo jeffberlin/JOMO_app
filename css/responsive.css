@@ -26,11 +26,6 @@
 	}
 }
 
-@media (max-width: 699px) {
-
-	
-}
-
 @media (max-width: 630px) {
 
 	.time-logo-section a img {
@@ -42,5 +37,12 @@
 
 	.time-logo-section h3, #phone, #phone input {
 		font-size: 14pt;
+	}
+}
+
+@media (max-width: 415px) {
+
+	.jomo-logo {
+		width: 100px;
 	}
 }
