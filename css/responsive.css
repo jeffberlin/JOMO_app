@@ -2,6 +2,10 @@
 
 @media (max-width: 990px) {
 
+	.jomo-logo {
+		width: 50%;
+	}
+
 	.time-logo-section h3, .time-logo-section form, .time-logo-section a {
 		padding-left: 10px;
 	}
@@ -10,12 +14,29 @@
 		margin-left: 15%;
 	}
 
+	.phone-img img {
+		align-self: center;
+		width: 100%;
+	}
+
+	.donating h2 {
+		font-size: 24pt;
+	}
+	
+
 }
 
 @media (min-width: 990px) {
 
 	.phone-img {
 		margin-bottom: 6rem;
+	}
+}
+
+@media (max-width: 990px) {
+
+	.jomo-logo {
+		text-align: center;
 	}
 }
 
@@ -37,12 +58,5 @@
 
 	.time-logo-section h3, #phone, #phone input {
 		font-size: 14pt;
-	}
-}
-
-@media (max-width: 415px) {
-
-	.jomo-logo {
-		width: 100px;
 	}
 }
