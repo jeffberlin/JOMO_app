@@ -49,7 +49,7 @@ form {
 }
 
 .form-group {
-	/*position: relative;*/
+	position: relative;
 	margin-bottom: 20px;
 	width: 60%;
 }
