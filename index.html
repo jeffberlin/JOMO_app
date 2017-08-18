@@ -42,15 +42,15 @@
 
 			<img class="img-responsive jomo-logo" src="images/JOM_Logotype_RGB_GRN-01 copy.png" >
 
-			<div class="container top-section col-lg-10 col-lg-offset-2 col-md-11">
+			<div class="container-fluid top-section">
 
-				<div class="phone-img col-lg-3 col-md-6 col-sm-6 col-xs-10">
+				<div class="phone-img col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-3 col-sm-6 col-xs-10">
 
 					<img src="images/phone2" class="img-responsive">
 
 				</div>
 
-				<div class="time-logo-section col-lg-8 col-md-6 col-sm-6 col-xs-8">
+				<div class="time-logo-section col-lg-6 col-md-12">
 
 					<img src="images/time-logo.png" class="img-responsive timelogo">
 
@@ -58,32 +58,25 @@
 
 					<h4 style="padding-top: 20px; padding-bottom: 20px;">We'll text you a link to download JOMO.</h4>
 
-					<div class="input-phone-form">
+					<form class="form-group" onsubmit="sendSMS(this); return false;">
 
-						<form class="form-group" onsubmit="sendSMS(this); return false;">
-
-							<div class="input-group">
-							
-								<input class="input-group-field phone-number" id="phone" placeholder="(000) 000-0000" type="tel" name="phone" onkeydown="javascript:backspacerDOWN(this,event);" onkeyup="javascript:backspacerUP(this,event);">
-
-							</div>
-
-							<div class="input-group-button">
-
-								<input type="image" src="images/android-arrow-up-right.png" class="button" alt="Submit" style="background-color: transparent; background-repeat: no-repeat; width: 20px; vertical-align: middle;">
-							
-							</div>
-
-						</form>
-
-						<ul>
-							<li><a href="#"><img src="images/apple-appstore.png" class="img-responsive"></a></li>
+						<div class="input-group">
 						
-							<li><a href="https://play.google.com/store/apps/details?id=com.jomoapp.jomo"><img src="images/google-appstore.png" class="img-responsive"></a></li>
+							<input class="input-group-field phone-number" id="phone" placeholder="(000) 000-0000" type="tel" name="phone" onkeydown="javascript:backspacerDOWN(this,event);" onkeyup="javascript:backspacerUP(this,event);">
 
-						</ul>
+						</div>
 
-					</div>
+						<div class="input-group-button">
+
+							<input type="image" src="images/android-arrow-up-right.png" class="button" alt="Submit" style="background-color: transparent; background-repeat: no-repeat; width: 20px; vertical-align: middle;">
+						
+						</div>
+
+					</form>
+
+					<a href="#"><img src="images/apple-appstore.png" class="img-responsive"></a>
+				
+					<a href="https://play.google.com/store/apps/details?id=com.jomoapp.jomo"><img src="images/google-appstore.png" class="img-responsive"></a>
 
 				</div>
 

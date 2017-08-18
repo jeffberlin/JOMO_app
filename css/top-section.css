@@ -16,13 +16,17 @@
 }
 
 .time-logo-section {
-	margin-top: 5%;
+	margin-top: 10rem;
 	padding-left: 10rem;
 }
 
 .time-logo-section h4 {
 	line-height: 140%;
 	font-size: 20pt;
+}
+
+.phone-img {
+	padding: 0px;
 }
 
 .timelogo {
@@ -33,13 +37,15 @@
 
 form {
 	display: block;
+	border-bottom: 3px solid #30cf83;
+	width: 100%;
+	position: relative;
 }
 
 .form-group {
-	border-bottom: 3px solid #30cf83;
-	position: relative;
+	/*position: relative;*/
 	margin-bottom: 20px;
-	width: 390px;
+	width: 60%;
 }
 
 .form-group input {
@@ -54,12 +60,13 @@ form {
 	letter-spacing: .95px;
 }
 
-.phone-number input {
-	width: 185px;
-}
+/*.input-phone-form {
+	width: 100%;
+}*/
 
 .input-group {
 	display: table;
+	width: 100%;
 }
 
 .input-group, .input-group-button {
@@ -74,15 +81,7 @@ form {
 	height: 100%;
 }
 
-.input-phone-form ul li {
+.time-logo-section a img {
+	width: 165px;
 	display: inline-block;
-}
-
-.input-phone-form ul {
-	margin-left: -55px;
-}
-
-.input-phone-form img {
-	width: 169px;
-	margin: 15px;
 }
