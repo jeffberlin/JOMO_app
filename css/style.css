@@ -42,6 +42,7 @@ html, body {
 
 .jumbotron {
 	width: 100%;
+	margin-bottom: 0px;
 }
 
 .time-logo-section h4, .align-vertical h4, #top-section h4, #phone, #phone input, .vertical-margin p, #bottom-info h5, footer p {

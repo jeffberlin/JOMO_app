@@ -1,7 +1,7 @@
 /* Code created for the JOMO, Inc. website. Designed by Ryan Payne, code written by Jeff Berlin */
 
 .partnerships {
-	margin-top: -32px;
+	margin-top: -35px;
 	background-color: #d2d4d3;
 	height: 600px;
 	width: 100%;
@@ -13,9 +13,9 @@
 	margin-top: 2%;
 }
 
-.stack {
-	margin-top: 2%;
+.stack img {
 	width: 100px;
+	text-align: center;
 }
 
 .short-rule {

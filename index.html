@@ -5,11 +5,12 @@
 <html>
 	<head profile="http://www.w3.org/TR/html4/strict.dtd">
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" type="image/png" href="images/colon_favicon_16x16.png" style="width: 15px;">
 		<title>JOMO - Joy of Missing Out</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-		<!-- <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsive.css">
 		<link rel="stylesheet" href="css/top-section.css">
@@ -37,66 +38,50 @@
 
 		<!-- TOP SECTION -->
 
-		<div class="container-fluid">
+		<div class="container-fluid" style="background-image: url('charlotte2.jpg'); background-position: center;background-repeat: no-repeat; background-size: cover;">
 
-			<div class="row">
+			<img class="img-responsive jomo-logo" src="images/JOM_Logotype_RGB_GRN-01 copy.png" >
 
-				<div class="header" style="background-image: url('charlotte2.jpg'); background-position: center;background-repeat: no-repeat; background-size: cover;">
+			<div class="container top-section col-lg-10 col-lg-offset-2 col-md-11">
 
-					<div class="jomo-logo">
+				<div class="phone-img col-lg-3 col-md-6 col-sm-6 col-xs-10">
 
-						<img src="images/JOM_Logotype_RGB_GRN-01 copy.png" class="">
+					<img src="images/phone2" class="img-responsive">
 
-					</div>
+				</div>
 
-					<div class="row">
+				<div class="time-logo-section col-lg-8 col-md-6 col-sm-6 col-xs-8">
 
-						<div class="top-section container">
+					<img src="images/time-logo.png" class="img-responsive timelogo">
 
-							<div class="phone-img col-md-4">
+					<h4>Experience the Joy of Missing Out. JOMO makes it quick<br>and easy to have a great time.</h4>
 
-								<img src="images/phone2" class="img-fluid">
+					<h4 style="padding-top: 20px; padding-bottom: 20px;">We'll text you a link to download JOMO.</h4>
 
-							</div>
+					<div class="input-phone-form">
 
-							<div class="time-logo-section col-md-8">
+						<form class="form-group" onsubmit="sendSMS(this); return false;">
 
-								<img src="images/time-logo.png" id="timelogo" class="img-fluid">
-
-								<h4>Experience the Joy of Missing Out. JOMO makes it quick<br>and easy to have a great time.</h4>
-
-								<h4 style="padding-top: 20px; padding-bottom: 20px;">We'll text you a link to download JOMO.</h4>
-
-								<div class="input-phone-form">
-
-									<form class="form-group" onsubmit="sendSMS(this); return false;">
-
-										<div class="input-group">
-										
-											<input class="input-group-field phone-number" id="phone" placeholder="(000) 000-0000" type="tel" name="phone" onkeydown="javascript:backspacerDOWN(this,event);" onkeyup="javascript:backspacerUP(this,event);">
-
-										</div>
-
-										<div class="input-group-button">
-
-											<input type="image" src="images/android-arrow-up-right.png" class="button" alt="Submit" style="background-color: transparent; background-repeat: no-repeat; width: 20px; vertical-align: middle;">
-										
-										</div>
-
-									</form>
-
-									<ul>
-										<li><a href="#"><img src="images/apple-appstore.png" class="img-fluid"></a></li>
-									
-										<li><a href="https://play.google.com/store/apps/details?id=com.jomoapp.jomo"><img src="images/google-appstore.png" class="img-fluid"></a></li>
-
-									</ul>
-
-								</div>
+							<div class="input-group">
+							
+								<input class="input-group-field phone-number" id="phone" placeholder="(000) 000-0000" type="tel" name="phone" onkeydown="javascript:backspacerDOWN(this,event);" onkeyup="javascript:backspacerUP(this,event);">
 
 							</div>
 
-						</div>
+							<div class="input-group-button">
+
+								<input type="image" src="images/android-arrow-up-right.png" class="button" alt="Submit" style="background-color: transparent; background-repeat: no-repeat; width: 20px; vertical-align: middle;">
+							
+							</div>
+
+						</form>
+
+						<ul>
+							<li><a href="#"><img src="images/apple-appstore.png" class="img-responsive"></a></li>
+						
+							<li><a href="https://play.google.com/store/apps/details?id=com.jomoapp.jomo"><img src="images/google-appstore.png" class="img-responsive"></a></li>
+
+						</ul>
 
 					</div>
 
@@ -114,7 +99,7 @@
 
 				<div class="jumbotron jumbotron-fluid cam">
 
-					<img src="images/camfoundation.png" class="img-fluid">
+					<img src="images/camfoundation.png" class="img-responsive">
 
 					<div class="donating">
 
@@ -132,15 +117,15 @@
 
 		<!-- PARTNERSHIP SECTION -->
 
-		<div class="container-fluid hidden-phone">
-
-			<div class="row">
+		<!-- <div class="container-fluid hidden-phone">
 
 				<div class="partnerships">
 
-					<img src="images/JOM_Stacked-Logotype_RGB_GRN-01 copy.png" class="img-fluid stack">
+					<div class="stack row text-center">
 
-					<!-- <h1>Thanks to our partners</h1> -->
+					<img src="images/JOM_Stacked-Logotype_RGB_GRN-01 copy.png" class="img-responsive">
+
+					</div>
 
 					<div class="short-rule"></div>
 
@@ -148,73 +133,73 @@
 
 						<div class="col-md-3">
 
-							<img class="img-fluid" src="../JOMO partners images/whitewater-center.png">
+							<img class="img-responsive" src="../JOMO partners images/whitewater-center.png">
 
 						</div>
 
 						<div class="col-md-3">
 
-							<img class="img-fluid" src="../JOMO partners images/opera-carolina copy.png">
+							<img class="img-responsive" src="../JOMO partners images/opera">
 
 						</div>
 
 						<div class="col-md-3">
 
-							<img class="img-fluid" src="../JOMO partners images/Charlotte-Checkers-logo-featured-.png">
+							<img class="img-responsive" src="../JOMO partners images/Charlotte-Checkers-logo-featured-.png">
 
 						</div>
 
 						<div class="col-md-3">
 
-							<img class="img-fluid" src="../JOMO partners images/DP_Logo-HORIZ-wTAG-CLR.png">
+							<img class="img-responsive" src="../JOMO partners images/DP_Logo-HORIZ-wTAG-CLR.png">
 
 						</div>
 					
 
 						<div class="col-md-3">
 
-							<img class="img-fluid" src="../JOMO partners images/comedy-zone copy.png">
+							<img class="img-responsive" src="../JOMO partners images/comedy-zone copy.png">
 
 						</div>
 
 						<div class="col-md-3">
 
-							<img class="img-fluid" src="../JOMO partners images/fillmore.png">
+							<img class="img-responsive" src="../JOMO partners images/nightlife-music-under-21-fillmore.png">
 
 						</div>
 
 						<div class="col-md-3">
 
-							<img class="img-fluid" src="../JOMO partners images/defygravitylogorev.png">
+							<img class="img-responsive" src="../JOMO partners images/defygravitylogorev.png">
 
 						</div>
 
 						<div class="col-md-3">
 
-							<img class="img-fluid" src="../JOMO partners images/tts.png">
+							<img class="img-responsive" src="../JOMO partners images/tts.png">
 						
 						</div>
 
 						<div class="col-md-3">
 
-							<img class="img-fluid" src="../JOMO partners images/unknown copy.png">
+							<img class="img-responsive" src="../JOMO partners images/unknown1.png">
 
 						</div>
 
 						<div class="col-md-3">
 
-							<img class="img-fluid" src="../JOMO partners images/roaring-riot.png">
+							<img class="img-responsive" src="../JOMO partners images/roaring-riot.png">
 
 						</div>
 
 						<div class="col-md-3">
-							<img class="img-fluid" src="../JOMO partners images/beer-week.png">
+							<img class="img-responsive" src="../JOMO partners images/beer-week.png">
 
 						</div>
 
 						<div class="col-md-3">
 
-							<img class="img-fluid" src="../JOMO partners images/packard-place.png">
+							<img class="img-responsive" src="../JOMO partners images/packard-place.png">
 
 						</div>
 							
@@ -222,10 +207,8 @@
 					
 				</div>
 
-			</div>
-
 		</div>
-
+ -->
 		<!-- MAP SECTION -->
 
 		<div class="container-fluid justify-content-around">
@@ -238,7 +221,7 @@
 
 						<div class="align-middle phonemap">
 
-							<img src="images/phone3 copy.png" class="img-fluid">
+							<img src="images/phone3 copy.png" class="img-responsive">
 						
 						</div>
 
@@ -276,7 +259,7 @@
 
 				<div class="col-md-4">
 
-					<img src="images/people.png" class="img-fluid">
+					<img src="images/people.png" class="img-responsive">
 
 					<h2>People</h2>
 
@@ -286,7 +269,7 @@
 
 				<div class="col-md-4">
 
-					<img src="images/places.png" class="img-fluid">
+					<img src="images/places.png" class="img-responsive">
 
 					<h2>Places</h2>
 					
@@ -296,7 +279,7 @@
 
 				<div class="col-md-4">
 
-					<img src="images/activities.png" class="img-fluid">
+					<img src="images/activities.png" class="img-responsive">
 
 					<h2>Activities</h2>
 					
@@ -325,7 +308,10 @@
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script> -->
 
 		<script src="js/main.js"></script>
 	</body>

@@ -1,19 +1,14 @@
 /* Code created for the JOMO, Inc. website. Designed by Ryan Payne, code written by Jeff Berlin */
 
-/*@media (max-width: 1460px) {
+/*@media (max-width: 991px) {
 
-	.align-vertical {
-		margin-right: 100px;
+	.phone-img {
+		width: 400px;
 	}
 
-	.phone-img img {
-		width: 200px !important;
+	.time-logo-section {
+		margin-left: 20%;
 	}
-}
 
-@media (max-width: 1050px) {
 
-	.jomo-logo img {
-		width: 200px !important;
-	}
 }*/
