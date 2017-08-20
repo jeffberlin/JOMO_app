@@ -15,15 +15,13 @@
 	}
 
 	.phone-img img {
-		align-self: center;
-		width: 100%;
+		text-align: center;
 	}
 
 	.donating h2 {
 		font-size: 24pt;
 	}
 	
-
 }
 
 @media (min-width: 990px) {
@@ -60,3 +58,11 @@
 		font-size: 14pt;
 	}
 }
+
+/*@media (max-width: 450px) {
+
+	.footer p {
+		
+	}
+
+}*/

@@ -24,31 +24,30 @@
 	margin-bottom: 100px;
 }
 
-footer {
-	width: 100%;
-	position: absolute;
-	height: auto;
+.footer {
+	/*width: 100%;
+	height: auto;*/
 	margin-bottom: 20px;
 }
 
-footer p {
+.footer p {
 	padding-left: 100px;
 	float: left;
 	vertical-align: middle;
 	font-size: 12pt;
 }
 
-footer ul {
+.footer ul {
 	padding-right: 100px;
 }
 
-footer ul li {
+.footer ul li {
 	float: right;
 	display: inline-block;
 	list-style: none;
 	padding: .5rem;
 }
 
-footer ul li img {
+.footer ul li img {
 	height: 25px;
 }
