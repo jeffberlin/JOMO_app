@@ -28,15 +28,17 @@
 
 .time-logo-section h3 {
 	line-height: 140%;
+	margin-top: 4%;
+	margin-bottom: 4%;
 }
 
 .phone-img img {
 	width: 350px;
 }
 
-.timelogo {
+/*.timelogo {
 	padding-bottom: 2%;
-}
+}*/
 
 form {
 	display: block;

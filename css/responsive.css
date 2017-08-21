@@ -41,10 +41,19 @@
 
 @media (max-width: 991px) {
 
+	.time-logo-section {
+		text-align: center;
+	}
+
+	.time-logo-section a img {
+		text-align: center;
+	}
+
+	.time-
 	.phonemap img {
 /*		text-align: center;
 */	}
-	
+
 	.vertical-margin {
 		margin-bottom: 10px !important;
 		border-bottom: 1px solid #30cf83;
@@ -58,9 +67,9 @@
 		text-align: center;
 	}
 
-	.time-logo-section h3, .time-logo-section form, .time-logo-section a {
+	/*.time-logo-section h3, .time-logo-section form, .time-logo-section a {
 		padding-left: 10px;
-	}
+	}*/
 
 	.time-logo-section {
 		margin-top: -4rem !important;
