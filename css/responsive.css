@@ -53,6 +53,10 @@
 		padding-right: 0rem !important;
 	}
 
+	.camlogo {
+		padding-top: 15px;
+	}
+
 	.phonemap img {
 /*		text-align: center;
 */	}
@@ -180,5 +184,12 @@
 	.footer {
 		padding-right: 1rem !important;
 		padding-left: 1rem !important;
+	}
+}
+
+@media (max-width: 340px) {
+
+	.donating h1 {
+		font-size: 18pt;
 	}
 }
