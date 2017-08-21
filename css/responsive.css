@@ -4,6 +4,7 @@
 
 	.jomo-logo {
 		width: 50%;
+		text-align: center;
 	}
 
 	.time-logo-section h3, .time-logo-section form, .time-logo-section a {
@@ -11,30 +12,28 @@
 	}
 
 	.time-logo-section {
-		margin-left: 15%;
+/*		margin-left: 15%;
+*/		margin-top: -4rem !important;
+	}
+
+	.time-logo-section  a {
+		text-align: center;
 	}
 
 	.phone-img img {
 		text-align: center;
+		margin-right: 0px;
 	}
 
 	.donating h2 {
 		font-size: 24pt;
 	}
-	
 }
 
 @media (min-width: 990px) {
 
 	.phone-img {
 		margin-bottom: 6rem;
-	}
-}
-
-@media (max-width: 990px) {
-
-	.jomo-logo {
-		text-align: center;
 	}
 }
 
@@ -45,17 +44,39 @@
 	}
 }
 
+@media (max-width: 767px) {
+
+	.time-logo-section h3 {
+		font-size: 14pt;
+	}
+}
+
 @media (max-width: 630px) {
 
 	.time-logo-section a img {
 		padding: 5px;
 	}
+
+	.time-logo-section {
+		margin-top: -8rem !important;
+	}
+}
+
+@media (max-width: 590px) {
+
+	.time-logo-section h3, #phone, #phone input {
+		font-size: 12pt;
+	}
 }
 
 @media (max-width: 543px) {
 
-	.time-logo-section h3, #phone, #phone input {
-		font-size: 14pt;
+	#phone, #phone input {
+		font-size: 12pt;
+	}
+
+	.time-logo-section {
+		margin-top: -8rem !important;
 	}
 }
 
