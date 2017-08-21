@@ -68,13 +68,9 @@
 @media (max-width: 990px) {
 
 	.jomo-logo {
-		width: 75%;
+		width: 40%;
 		text-align: center;
 	}
-
-	/*.time-logo-section h3, .time-logo-section form, .time-logo-section a {
-		padding-left: 10px;
-	}*/
 
 	.time-logo-section {
 		margin-top: -4rem !important;
@@ -111,6 +107,10 @@
 }
 
 @media (max-width: 767px) {
+
+	.jomo-logo {
+		width: 60%;
+	}
 
 	.time-logo-section h3 {
 		font-size: 14pt;
