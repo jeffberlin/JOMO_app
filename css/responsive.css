@@ -1,5 +1,16 @@
 /* Code created for the JOMO, Inc. website. Designed by Ryan Payne, code written by Jeff Berlin */
 
+@media (max-width: 1301px) {
+
+	.donating h1 {
+		font-size: 26pt;
+	}
+
+	.donating h5 {
+		font-size: 12pt;
+	}
+}
+
 @media (max-width: 990px) {
 
 	.jomo-logo {
@@ -12,8 +23,7 @@
 	}
 
 	.time-logo-section {
-/*		margin-left: 15%;
-*/		margin-top: -4rem !important;
+		margin-top: -4rem !important;
 	}
 
 	.time-logo-section  a {
@@ -23,9 +33,14 @@
 	.phone-img img {
 		text-align: center;
 		margin-right: 0px;
+		width: 10%;
 	}
 
-	.donating h2 {
+	.donating {
+		margin-right: 5rem !important;
+	}
+
+	.donating h1 {
 		font-size: 24pt;
 	}
 }
@@ -48,6 +63,18 @@
 
 	.time-logo-section h3 {
 		font-size: 14pt;
+	}
+
+	.donating {
+		margin-right: 0rem !important;
+	}
+
+	.donating h1 {
+		font-size: 22pt;
+	}
+
+	.donating h5 {
+		font-size: 10pt;
 	}
 }
 
