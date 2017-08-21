@@ -25,16 +25,13 @@
 }
 
 .footer {
-	/*width: 100%;
-	height: auto;*/
 	margin-bottom: 20px;
 	padding-right: 10rem;
 	padding-left: 10rem;
 }
 
 .footer p {
-	/*padding-left: 100px;
-*/	float: left;
+	float: left;
 	vertical-align: middle;
 	font-size: 12pt;
 }
