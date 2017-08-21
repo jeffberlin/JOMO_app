@@ -28,26 +28,23 @@
 	/*width: 100%;
 	height: auto;*/
 	margin-bottom: 20px;
+	padding-right: 10rem;
+	padding-left: 10rem;
 }
 
 .footer p {
-	padding-left: 100px;
-	float: left;
+	/*padding-left: 100px;
+*/	float: left;
 	vertical-align: middle;
 	font-size: 12pt;
 }
 
-.footer ul {
-	padding-right: 100px;
-}
-
-.footer ul li {
+.footer a {
 	float: right;
 	display: inline-block;
-	list-style: none;
 	padding: .5rem;
 }
 
-.footer ul li img {
+.footer a img {
 	height: 25px;
 }

@@ -91,23 +91,9 @@
 		margin-left: 0px !important;
 	}
 
-	/*.donating h1 {
-		font-size: 2pt;
-	}
-}*/
-
-@media (max-width: 991px) {
-
-	/*.donating h5 {
-		font-size: 12pt;
-	}*/
-}
-
-@media (min-width: 990px) {
-
-	.phone-img {
-		margin-bottom: 6rem;
-	}
+	.donating h1 {
+		text-align: center;
+	} 
 }
 
 @media (max-width: 823px) {
@@ -127,10 +113,18 @@
 		margin-right: 0rem !important;
 	}
 
-	/*.donating h1 {
-		font-size: 20pt;
-	}*/
+	.footer p, .footer a {
+		text-align: center;
+	}
 
+}
+
+@media (max-width: 667px) {
+
+	.footer {
+		padding-right: 10rem !important;
+		padding-left: 10rem !important;
+	}
 }
 
 @media (max-width: 630px) {
@@ -144,13 +138,6 @@
 	}
 }
 
-@media (max-width: 590px) {
-
-	.time-logo-section h3, #phone, #phone input {
-		font-size: 12pt;
-	}
-}
-
 @media (max-width: 543px) {
 
 	#phone, #phone input {
@@ -160,12 +147,26 @@
 	.time-logo-section {
 		margin-top: -8rem !important;
 	}
+
+	/*.footer {
+		padding-left: 10rem !important;
+		padding-right: 10rem !important;
+	}*/
 }
 
-/*@media (max-width: 450px) {
+@media (max-width: 507px) {
 
-	.footer p {
-		
+	.footer {
+		padding-left: 3rem !important;
+		padding-right: 3rem !important;
 	}
 
-}*/
+}
+
+@media (max-width: 367px) {
+
+	.footer {
+		padding-right: 1rem !important;
+		padding-left: 1rem !important;
+	}
+}
