@@ -9,7 +9,7 @@
 	.donating h5 {
 		font-size: 12pt;
 	}
-	
+
 }
 
 @media (max-width: 1199px) {
@@ -44,12 +44,13 @@
 
 @media (max-width: 991px) {
 
-	.time-logo-section {
+	.time-logo-section, .time-logo-section a img {
 		text-align: center;
 	}
 
-	.time-logo-section a img {
-		text-align: center;
+	.time-logo-section {
+		padding-left: 0rem !important;
+		padding-right: 0rem !important;
 	}
 
 	.phonemap img {
