@@ -9,10 +9,11 @@
 .camlogo {
 	margin-top: 3%;
 	vertical-align: middle;
+	text-align: center;
 }
 
 .camlogo img {
-	/*width: 65%;*/
+	width: 224px;
 
 }
 

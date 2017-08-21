@@ -18,6 +18,15 @@
 	}
 }
 
+@media (max-width: 1169px) {
+
+	.donating {
+		margin-right: 0rem !important;
+		margin-bottom: 5rem !important;
+		margin-left: 40px !important;
+	}
+}
+
 @media (max-width: 990px) {
 
 	.jomo-logo {
