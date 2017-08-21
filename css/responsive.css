@@ -90,10 +90,13 @@
 		margin-right: 0rem !important;
 		margin-bottom: 5rem !important;
 		margin-left: 0px !important;
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 
 	.donating h1 {
 		text-align: center;
+		font-size: 24pt;
 	}
 
 }
@@ -118,6 +121,10 @@
 
 	.donating {
 		margin-right: 0rem !important;
+	}
+
+	.donating h1 {
+		font-size: 20pt;
 	}
 
 	.footer p, .footer a {
