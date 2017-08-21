@@ -11,7 +11,7 @@
 }
 
 .vertical-align {
-	display: table;
+	vertical-align: middle;
 }
 
 .phonemap img {
@@ -20,14 +20,13 @@
 	margin-top: 82px;
 }
 
-.align-middle {
-	display: table-cell;
-	vertical-align: middle;
+.phonemap {
+	display: inline-block;
 }
 
 .vertical-margin {
-	margin-left: 380px;
-	margin-top: 16%;
+	margin-left: 22%;
+	margin-top: 12%;
 	vertical-align: middle;
 }
 
@@ -37,4 +36,5 @@
 
 .vertical-margin p {
 	font-size: 20pt;
+	margin-top: 20px;
 }
