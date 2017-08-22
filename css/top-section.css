@@ -14,7 +14,6 @@
 }
 
 .time-logo-section {
-	/*margin-top: 3rem;*/
 	padding-left: 5rem;
 	margin-bottom: 5rem;
 	padding-top: 8rem;
@@ -28,9 +27,7 @@
 
 .phone-img {
 	padding: 0px;
-/*	width: 300px;*/	
 	margin-bottom: 5rem;
-	/*margin-right: 14rem;*/
 }
 
 .phone-img img {

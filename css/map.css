@@ -1,7 +1,6 @@
 /* Code created for the JOMO, Inc. website. Designed by Ryan Payne, code written by Jeff Berlin */
 
 .map {
-	/*height: 620px;*/
 	border-top: 1px solid #30cf83;
 	border-bottom: 1px solid #30cf83;
 	margin-top: -5px;
@@ -16,7 +15,6 @@
 
 .phonemap img {
 	width: 300px;
-	/*margin-left: 75%;*/
 	margin-top: 82px;
 }
 
