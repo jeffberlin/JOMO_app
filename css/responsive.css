@@ -245,7 +245,7 @@
 		margin-right: 0px !important;
 	}
 
-	.partners img {
+	.partners a img {
 		height: 65px !important;
 		margin-bottom: 1rem !important;
 	}
@@ -259,6 +259,13 @@
 		padding-left: 1rem !important;
 	}
 
+}
+
+@media (max-width: 350px) {
+
+	.partners a img {
+		height: 60px !important;
+	}
 }
 
 @media (max-width: 340px) {
