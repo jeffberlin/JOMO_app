@@ -11,10 +11,16 @@
 .partnerships h1 {
 	text-align: center;
 	margin-top: 3rem;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 	color: #696a6d;
 }
 
+.partnerships p {
+	color: #696a6d;
+	font-size: 16pt;
+	font-family: "GT-Walsheim-Thin";
+	margin-bottom: 3rem;
+}
 /*.short-rule {
 	background: #ffffff;
 	height: 4px;
@@ -28,12 +34,13 @@
 	margin-bottom: 3rem;
 }
 
-.partners img {
+.partners div {
+	border-right: 1px solid #30cf83;
+}
+
+.partners a img {
 	height: 80px;
 	padding: 10px;
 	margin-bottom: 3rem;
+	vertical-align: middle;
 }
-
-/*.partners div {
-	margin-top: 20px;
-}*/
