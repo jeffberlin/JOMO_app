@@ -3,27 +3,42 @@
 // Branch code for sending the SMS
 (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode".split(" "), 0);
 branch.init('key_test_djAFXqGoN9vI70AOXY5VlcefztgADlwt');
-            function sendSMS(form) {
-                var phone = form.phone.value;
-                var linkData = {
-                    tags: [],
-                    channel: 'Website',
-                    feature: 'TextMeTheApp',
-                    data: {
-                    }
-                };
-                var options = {};
-                var callback = function(err, result) {
-                    if (err) {
-                        alert("Sorry, something went wrong.");
-                    }
-                    else {
-                        alert("Check your phone for our text!");
-                    }
-                };
-                branch.sendSMS(phone, linkData, options, callback);
-                form.phone.value = "";
-            }
+function sendSMS(form) {
+    var phone = form.phone.value;
+    var linkData = {
+        tags: [],
+        channel: 'Website',
+        feature: 'TextMeTheApp',
+        data: {
+        }
+    };
+    var options = {};
+    var callback = function(err, result) {
+        if (err) {
+            alert("Sorry, something went wrong.");
+        }
+        else {
+            alert("Check your phone for our text!");
+        }
+    };
+    branch.sendSMS(phone, linkData, options, callback);
+    form.phone.value = "";
+}
+
+// Detecting device OS
+var operatingSystem, userAgentString = navigator.userAgent;
+var link = $("#store");
+
+if (userAgentString.indexOf("iPhone") > -1 || userAgentString.indexOf("iPod") > -1 || userAgentString.indexOf("iPad") > -1) {
+    operatingSystem = "iOS";
+    link.attr("href", "http://store.apples.com/us/browse/app");
+} else if (/Android/.test(userAgentString)) {
+    operatingSystem = "Android";
+    link.attr("href", "https://play.google.com/store/apps?h1=en");
+} else if (/Windows Phone/.test(userAgentString)) {
+    operatingSystem = "Windows Phone";
+    link.attr("href", "http://www.windowsphone.com/en-us/store");
+}
 
 // Opens all links in a new tab
 var links =  document.links;
