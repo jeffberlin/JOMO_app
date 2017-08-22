@@ -33,7 +33,7 @@ if (userAgentString.indexOf("iPhone") > -1 || userAgentString.indexOf("iPod") > 
     operatingSystem = "iOS";
     link.attr("href", "http://store.apple.com/us/browse/app");
     return (".apple");
-    document.getElementByClass('googleplay').style.visibility = 'hidden';
+    document.getElementByClass('googleplay').style.display = 'none';
 } else if (/Android/.test(userAgentString)) {
     operatingSystem = "Android";
     link.attr("href", "https://play.google.com/store/apps/details?id=com.jomoapp.jomo");
