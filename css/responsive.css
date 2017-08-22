@@ -49,7 +49,7 @@
 @media (max-width: 991px) {
 
 	.jomo-logo {
-		width: 40%;
+		width: 35%;
 		text-align: center;
 	}
 
@@ -125,7 +125,7 @@
 @media (max-width: 767px) {
 
 	.jomo-logo {
-		width: 50%;
+		width: 45%;
 	}
 
 	.time-logo-section h3 {
@@ -222,6 +222,11 @@
 
 @media (max-width: 469px) {
 
+
+	.jomo-logo {
+		width: 55%;
+	}
+
 	.vertical-margin h1 {
 		font-size: 18pt !important;
 	}
@@ -262,6 +267,10 @@
 }
 
 @media (max-width: 350px) {
+
+	.jomo-logo {
+		width: 60%;
+	}
 
 	.partners a img {
 		height: 60px !important;
