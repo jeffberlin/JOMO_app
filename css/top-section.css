@@ -13,12 +13,6 @@
 	margin-bottom: 10px;
 }
 
-.phone-img {
-	padding: 0px;
-/*	width: 300px;*/	
-	margin-bottom: 5rem;
-}
-
 .time-logo-section {
 	/*margin-top: 3rem;*/
 	padding-left: 5rem;
@@ -32,13 +26,16 @@
 	margin-bottom: 4%;
 }
 
+.phone-img {
+	padding: 0px;
+/*	width: 300px;*/	
+	margin-bottom: 5rem;
+	/*margin-right: 14rem;*/
+}
+
 .phone-img img {
 	width: 350px;
 }
-
-/*.timelogo {
-	padding-bottom: 2%;
-}*/
 
 form {
 	display: block;

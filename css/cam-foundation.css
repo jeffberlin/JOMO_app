@@ -1,7 +1,6 @@
 /* Code created for the JOMO, Inc. website. Designed by Ryan Payne, code written by Jeff Berlin */
 
 .cam {
-	/*height: 450px;*/
 	background-color: #3a4b58;
 	display: inline-block;
 	width: 100%;
@@ -9,26 +8,24 @@
 
 .camlogo {
 	margin-top: 3%;
+	margin-bottom: 3%;
 	vertical-align: middle;
 	text-align: center;
 }
 
 .camlogo img {
 	width: 224px;
-
 }
 
 .donating {
-	margin-top: 2%;
+	margin-top: 3%;
 	margin-right: 10rem;
-	margin-bottom: 10rem;
 	vertical-align: middle;
 }
 
 .donating h1 {
 	font-family: "GT-Walsheim-Medium";
 	color: #e0e645;
-	padding-top: 30px;
 	letter-spacing: .75px;
 	padding-bottom: 15px;
 	line-height: 130%;
