@@ -34,7 +34,7 @@ if (userAgentString.indexOf("iPhone") > -1 || userAgentString.indexOf("iPod") > 
     link.attr("href", "http://store.apples.com/us/browse/app");
 } else if (/Android/.test(userAgentString)) {
     operatingSystem = "Android";
-    link.attr("href", "https://play.google.com/store/apps?h1=en");
+    link.attr("href", "https://play.google.com/store/apps/details?id=com.jomoapp.jomo");
 } else if (/Windows Phone/.test(userAgentString)) {
     operatingSystem = "Windows Phone";
     link.attr("href", "http://www.windowsphone.com/en-us/store");
