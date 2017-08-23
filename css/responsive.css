@@ -14,9 +14,9 @@
 
 @media (max-width: 1199px) {
 
-	.time-logo-section h3 {
+	/*.time-logo-section h3 {
 		font-size: 18pt !important;
-	}
+	}*/
 
 	.donating {
 		padding-left: 10rem;
@@ -46,13 +46,13 @@
 
 }
 
-@media (max-width: 1165px) {
+/*@media (max-width: 1165px) {
 
 	.time-logo-section h3 {
 		font-size: 16pt !important;
 	}
 
-}
+}*/
 
 @media (max-width: 1143px) {
 
@@ -67,22 +67,24 @@
 	.vertical-margin h1 {
 		font-size: 26pt !important;
 	}
+
 }
-@media (max-width: 1057px) {
+
+/*@media (max-width: 1057px) {
 
 	.time-logo-section h3 {
 		font-size: 15pt !important;
 	}
 
-}
+}*/
 
-@media (max-width: 1003px) {
+/*@media (max-width: 1003px) {
 
 	.time-logo-section h3, #phone, #phone input {
 		font-size: 14pt !important;
 	}
 
-}
+}*/
 
 @media (max-width: 999px) {
 
@@ -105,6 +107,16 @@
 		padding-left: 0rem !important;
 		padding-right: 0rem !important;
 		text-align: center;
+	}
+
+	.time-logo-section h3 {
+		padding-right: 10rem !important;
+		padding-left: 10rem !important;
+	}
+
+	.timelogo img {
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 
 	.googleplay, .apple {
@@ -233,9 +245,17 @@
 	}
 
 	.time-logo-section {
-		margin-top: -8rem !important;
+		margin-top: -5rem !important;
 	}
 
+}
+
+@media (max-width: 579px) {
+
+	.time-logo-section h3 {
+		padding-left: 2rem !important;
+		padding-right: 2rem !important;
+	}
 }
 
 @media (max-width: 557px) {
@@ -248,9 +268,9 @@
 
 @media (max-width: 543px) {
 
-	.time-logo-section {
+	/*.time-logo-section {
 		margin-top: -8rem !important;
-	}
+	}*/
 
 }
 

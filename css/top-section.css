@@ -16,12 +16,7 @@
 .time-logo-section {
 	margin-bottom: 5rem;
 	padding-top: 6%;
-	margin-left: 4% !important;
-	vertical-align: middle;
-}
-
-.phone-img {
-	position: relative;
+	/*margin-left: 4% !important;*/
 	vertical-align: middle;
 }
 
@@ -34,16 +29,36 @@
 }
 
 .phone-img {
+	position: relative;
+	vertical-align: middle;
+}
+
+.phone-img {
 	padding: 0px;
-	margin-bottom: 5rem;
+	/*margin-bottom: 5rem;*/
 }
 
 .phone-img img {
 	width: 80%;
 }
 
-.time-logo-section img {
+/*.timelogo img {
 	width: 65%;
+}*/
+
+.colon {
+	display: inline-flex;
+	vertical-align: middle;
+}
+
+.colon h1 {
+	font-family: "GT-Walsheim-Medium";
+	color: #3a4b58;
+	text-align: center;
+}
+
+.colon img {
+	width: 20%;
 }
 
 form {
@@ -54,7 +69,6 @@ form {
 }
 
 .form-group {
-	
 	position: relative;
 	margin-bottom: 20px;
 	width: 60%;
@@ -91,7 +105,7 @@ form {
 	height: 100%;
 }
 
-.time-logo-section a img {
+.time-logo-section a {
 	width: 165px;
 	display: inline-block;
 	padding: 10px;

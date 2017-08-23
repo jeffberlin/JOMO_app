@@ -202,3 +202,8 @@ function ParseChar(sStr, sChar) {
 
     return sNewStr;
 }
+
+// "TIME" flipper section SECTION
+var wordList = [
+    'Time', 'Sports', 'Art', 'Friends', 'Music', 'Brunch', 'Games', 'Family', 'Racing', 'Fitness', 'Crafts', 'Surfing'
+]
