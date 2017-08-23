@@ -14,6 +14,10 @@
 
 @media (max-width: 1199px) {
 
+	.time-logo-section h3 {
+		font-size: 18pt;
+	}
+
 	.donating {
 		padding-left: 10rem;
 	}

@@ -5,7 +5,7 @@
 }
 
 .top-section {
-	display: inline-block;
+	display: inline-flex;
 }
 
 .jomo-logo {
@@ -14,9 +14,15 @@
 }
 
 .time-logo-section {
-	padding-left: 5rem;
 	margin-bottom: 5rem;
-	padding-top: 8rem;
+	padding-top: 6rem;
+	vertical-align: middle;
+	margin-right: 10rem;
+}
+
+.phone-img {
+	position: relative;
+	vertical-align: middle;
 }
 
 .time-logo-section h3 {
@@ -32,18 +38,18 @@
 }
 
 .phone-img img {
-	width: 350px;
+	width: 400px;
 }
 
 form {
 	display: block;
-	border-bottom: 3px solid #30cf83;
 	width: 100%;
 	position: relative;
 	min-width: 224px;
 }
 
 .form-group {
+	
 	position: relative;
 	margin-bottom: 20px;
 	width: 60%;
@@ -69,6 +75,7 @@ form {
 
 .input-group, .input-group-button {
 	display: table-cell;
+	border-bottom: 3px solid #30cf83;
 }
 
 .input-group-button {
