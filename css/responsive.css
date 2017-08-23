@@ -50,11 +50,28 @@
 
 }
 
-@media (max-width: 1109px) {
+@media (max-width: 1165px) {
 
 	.time-logo-section h3 {
 		font-size: 16pt !important;
 	}
+
+}
+
+@media (max-width: 1057px) {
+
+	.time-logo-section h3 {
+		font-size: 15pt !important;
+	}
+
+}
+
+@media (max-width: 1003px) {
+
+	.time-logo-section h3, #phone, #phone input {
+		font-size: 14pt !important;
+	}
+
 }
 
 @media (max-width: 991px) {
@@ -69,14 +86,6 @@
 		margin-right: 0rem !important;
 		padding-left: 0rem !important;
 		padding-right: 0rem !important;
-		text-align: center;
-	}
-
-	.time-logo-section h3 {
-		font-size: 18pt !important;
-	}
-
-	.time-logo-section, .time-logo-section a img {
 		text-align: center;
 	}
 
