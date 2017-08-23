@@ -15,7 +15,7 @@
 @media (max-width: 1199px) {
 
 	.time-logo-section h3 {
-		font-size: 18pt;
+		font-size: 18pt !important;
 	}
 
 	.donating {
@@ -50,6 +50,13 @@
 
 }
 
+@media (max-width: 1109px) {
+
+	.time-logo-section h3 {
+		font-size: 16pt !important;
+	}
+}
+
 @media (max-width: 991px) {
 
 	.jomo-logo {
@@ -59,8 +66,14 @@
 
 	.time-logo-section {
 		margin-top: -4rem !important;
+		margin-right: 0rem !important;
 		padding-left: 0rem !important;
 		padding-right: 0rem !important;
+		text-align: center;
+	}
+
+	.time-logo-section h3 {
+		font-size: 18pt !important;
 	}
 
 	.time-logo-section, .time-logo-section a img {
