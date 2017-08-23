@@ -352,3 +352,18 @@
 	}
 
 }
+
+@media (max-width: 335px) {
+
+	.time-logo-section a {
+		padding: 0 !important;
+	}
+
+	.time-logo-section h3 {
+		margin-bottom: 2rem !important;
+	}
+
+	.time-logo-section {
+		margin-bottom: 2rem !important;
+	}
+}
