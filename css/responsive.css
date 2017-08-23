@@ -355,8 +355,12 @@
 
 @media (max-width: 335px) {
 
-	.time-logo-section a {
+	.time-logo-section a, .apple, .googleplay {
 		padding: 0 !important;
+	}
+
+	.apple {
+		margin-bottom: 2rem !important;
 	}
 
 	.time-logo-section h3 {
