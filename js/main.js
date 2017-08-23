@@ -25,23 +25,6 @@ function sendSMS(form) {
     form.phone.value = "";
 }
 
-// Detecting device OS
-var operatingSystem, userAgentString = navigator.userAgent;
-var link = $("#store");
-
-if (userAgentString.indexOf("iPhone") > -1 || userAgentString.indexOf("iPod") > -1 || userAgentString.indexOf("iPad") > -1) {
-    document.getElementByClass('googleplay').style.display = 'none';
-    operatingSystem = "iOS";
-    link.attr("href", "http://store.apple.com/us/browse/app");
-    return document.getElementByClass(".apple");
-} else if (/Android/.test(userAgentString)) {
-    operatingSystem = "Android";
-    link.attr("href", "https://play.google.com/store/apps/details?id=com.jomoapp.jomo");
-} else if (/Windows Phone/.test(userAgentString)) {
-    operatingSystem = "Windows Phone";
-    link.attr("href", "http://www.windowsphone.com/en-us/store");
-}
-
 // Opens all links in a new tab
 var links =  document.links;
 for (var i = 0; i < links.length; i++) {
