@@ -2,15 +2,15 @@
 
 .map {
 	border-top: 1px solid #30cf83;
-	border-bottom: 1px solid #30cf83;
-	margin-top: -5px;
+/*	border-bottom: 1px solid #30cf83;
+*/	margin-top: -5px;
 	width: 100%;
-	display: inline-block;
-}
+/*	display: inline-block;
+*/}
 
 .vertical-align {
-	vertical-align: middle;
-	display: inline-block;
+/*	vertical-align: middle;
+*/	display: inline-block;
 }
 
 .phonemap img {
