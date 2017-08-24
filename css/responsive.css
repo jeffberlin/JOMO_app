@@ -102,7 +102,7 @@
 	}
 
 	.time-logo-section {
-		margin-top: -4rem !important;
+		/*margin-top: -4rem !important;*/
 		margin-right: 0rem !important;
 		padding-left: 0rem !important;
 		padding-right: 0rem !important;
@@ -119,17 +119,26 @@
 		padding-right: 2rem;
 	}
 
-	.googleplay, .apple {
+	.time-logo-section a {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+
+	.play-link img, .apple-link img {
 		padding-right: 0px !important;
 	}
 
-	.apple {
+	.apple-link {
 		margin-right: 10px;
+	}
+
+	.play-link {
+		padding-right: 0 !important;
 	}
 
 	.camlogo img {
 		width: 200px !important;
-		margin-top: 20px;
+		margin-top: 2rem !important;
 	}
 
 	.donating {
@@ -189,9 +198,9 @@
 		width: 45%;
 	}
 
-	.time-logo-section h3 {
+	/*.time-logo-section h3 {
 		font-size: 14pt;
-	}
+	}*/
 
 	.donating {
 		margin-right: 0rem !important;

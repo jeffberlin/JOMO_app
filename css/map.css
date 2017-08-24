@@ -2,6 +2,7 @@
 
 .map {
 	border-top: 1px solid #30cf83;
+	border-bottom: 1px solid #30cf83;
 	margin-top: -5px;
 	width: 100%;
 	display: flex;
@@ -20,16 +21,16 @@
 	padding: 0;
 }
 
-.vertical-margin {
+.map-info {
 	margin-top: 18rem;
 	vertical-align: middle;
 }
 
-.vertical-margin h1 {
+.map-info h1 {
 	font-size: 30pt;
 }
 
-.vertical-margin p {
+.map-info p {
 	font-size: 20pt;
 	margin-top: 20px;
 }
