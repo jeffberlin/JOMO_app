@@ -103,7 +103,7 @@
 	}
 
 	.form-group {
-		width: 65%;
+		
 	}
 
 	.timelogo img {
@@ -121,16 +121,12 @@
 		padding-bottom: 0 !important;
 	}
 
-	.play-link img, .apple-link img {
+	.play-link, .play-link img, .apple-link img {
 		padding-right: 0px !important;
 	}
 
 	.apple-link {
 		margin-right: 10px;
-	}
-
-	.play-link {
-		padding-right: 0 !important;
 	}
 
 	.camlogo img {
@@ -220,11 +216,7 @@
 		margin-bottom: 5rem !important;
 	}
 
-	.phonemap img {
-		text-align: center;
-	}
-
-	.footer p, .footer a {
+	.phonemap img, .footer p, .footer a {
 		text-align: center;
 	}
 
@@ -361,15 +353,7 @@
 		padding: 0 !important;
 	}
 
-	.apple-link {
-		margin-bottom: 2rem !important;
-	}
-
-	.time-logo-section h3 {
-		margin-bottom: 2rem !important;
-	}
-
-	.time-logo-section {
+	.time-logo-section, .time-logo-section h3, .apple-link {
 		margin-bottom: 2rem !important;
 	}
 
