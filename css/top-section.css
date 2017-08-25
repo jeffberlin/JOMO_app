@@ -56,14 +56,17 @@
 form {
 	display: block;
 	width: 100%;
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 	position: relative;
-	min-width: 224px;
+	min-width: 341px;
 }
 
 .form-group {
 	position: relative;
 	margin-bottom: 20px;
-	width: 60%;
+	width: 50%;
 	text-align: left;
 }
 

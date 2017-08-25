@@ -103,8 +103,8 @@
 	}
 
 	.form-group {
-		margin-left: 30% !important;
-		width: 40% !important;
+		margin-left: auto !important;
+		width: 341px !important;
 	}
 
 	.timelogo img {
@@ -238,6 +238,13 @@
 		padding-left: 10rem !important;
 	}
 
+}
+
+@media (max-width: 590px) {
+
+	.text-sms, .form-group {
+		display: none;
+	}
 }
 
 @media (max-width: 579px) {
