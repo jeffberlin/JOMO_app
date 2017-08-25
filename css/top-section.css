@@ -4,6 +4,13 @@
 	padding: 0;
 }
 
+.main {
+	background-image: url('../images/jomo-charlotte3-min.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 .jomo-logo {
 	padding: 40px;
 }
@@ -32,16 +39,16 @@
 }
 
 .colon img {
-	height: 10rem;
+	max-height: 10rem;
 }
 
 .word-list {
-	margin-right: 3rem;
+	/*margin-right: 3rem;*/
 	font-size: 48pt;
 }
 
 .well-spent {
-	margin-left: 3rem;
+	/*margin-left: 3rem;*/
 	font-size: 48pt;
 }
 

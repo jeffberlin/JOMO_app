@@ -1,6 +1,10 @@
 /* Code created for the JOMO, Inc. website. Designed by Ryan Payne, code written by Jeff Berlin */
 
 .map {
+	background-image: url('../images/jomo-charlotte-map-pins.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	border-top: 1px solid #30cf83;
 	border-bottom: 1px solid #30cf83;
 	margin-top: -5px;
