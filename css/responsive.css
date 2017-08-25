@@ -303,10 +303,6 @@
 
 @media (max-width: 413px) {
 
-	.apple {
-		margin-right: 0px !important;
-	}
-
 	.partners a img {
 		height: 65px !important;
 		margin-bottom: 1rem !important;
@@ -355,7 +351,7 @@
 
 }
 
-@media (max-width: 335px) {
+@media (max-width: 333px) {
 
 	.time-logo-section a, .apple-link, .play-link {
 		padding: 0 !important;
