@@ -26,10 +26,6 @@
 
 @media (max-width: 1199px) {
 
-	/*.time-logo-section h3 {
-		font-size: 18pt !important;
-	}*/
-
 	.donating {
 		padding-left: 10rem;
 	}
@@ -58,22 +54,6 @@
 
 }
 
-/*@media (max-width: 1171px) {
-
-	.map-info h1 {
-		font-size: 28pt !important;
-	}
-
-}*/
-
-@media (max-width: 1143px) {
-
-	/*.map-info h1 {
-		font-size: 26pt !important;
-	}*/
-
-}
-
 @media (max-width: 1141px) {
 
 	.colon h1 {
@@ -91,6 +71,7 @@
 	.map-info {
 		margin-left: 5rem !important;
 	}
+
 }
 
 @media (max-width: 1041px) {
@@ -217,10 +198,6 @@
 		width: 45%;
 	}
 
-	/*.time-logo-section h3 {
-		font-size: 14pt;
-	}*/
-
 	.timelogo img {
 		width: 75% !important;
 	}
@@ -270,24 +247,13 @@
 
 }
 
-@media (max-width: 630px) {
-
-	/*.time-logo-section a img {
-		padding: 5px;
-	}*/
-
-	/*.time-logo-section {
-		margin-top: -5rem !important;
-	}*/
-
-}
-
 @media (max-width: 579px) {
 
 	.time-logo-section h3 {
 		padding-left: 2rem !important;
 		padding-right: 2rem !important;
 	}
+
 }
 
 @media (max-width: 557px) {
@@ -297,14 +263,6 @@
 	}
 
 }
-
-/*@media (max-width: 543px) {
-
-	.time-logo-section {
-		margin-top: -8rem !important;
-	}
-
-}*/
 
 @media (max-width: 512px) {
 
@@ -414,4 +372,5 @@
 	.time-logo-section {
 		margin-bottom: 2rem !important;
 	}
+
 }
