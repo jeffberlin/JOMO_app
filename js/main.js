@@ -205,5 +205,17 @@ function ParseChar(sStr, sChar) {
 
 // "TIME" flipper section SECTION
 var wordList = [
-    'Time', 'Sports', 'Art', 'Friends', 'Music', 'Brunch', 'Games', 'Family', 'Racing', 'Fitness', 'Crafts', 'Surfing'
+    'Sports', 'Art', 'Friends', 'Music', 'Brunch', 'Games', 'Family', 'Racing', 'Fitness', 'Crafts', 'Surfing', 'Time'
 ]
+var counter = 0;
+
+var picker = document.getElementById("word-picker");
+setInterval(changeText, 3000);
+
+function changeText() {
+    picker.innerHTML = wordList[counter];
+    counter++;
+    if (counter >= wordList.length) {
+        counter = 0;
+    }
+}
