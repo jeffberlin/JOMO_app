@@ -12,6 +12,18 @@
 
 }
 
+@media (max-width: 1271px) {
+
+	.colon h1 {
+		font-size: 42pt;
+	}
+
+	.colon img {
+		height: 71px !important;
+	}
+
+}
+
 @media (max-width: 1199px) {
 
 	/*.time-logo-section h3 {
@@ -22,7 +34,7 @@
 		padding-left: 10rem;
 	}
 
-	.vertical-margin p {
+	.map-info p {
 		font-size: 18pt !important;
 	}
 
@@ -46,49 +58,45 @@
 
 }
 
-/*@media (max-width: 1165px) {
-
-	.time-logo-section h3 {
-		font-size: 16pt !important;
-	}
-
-}*/
-
-@media (max-width: 1143px) {
-
-	.vertical-margin h1 {
-		font-size: 28pt !important;
-	}
-
-}
-
 @media (max-width: 1171px) {
 
-	.vertical-margin h1 {
+	.map-info h1 {
 		font-size: 26pt !important;
 	}
 
 }
 
-/*@media (max-width: 1057px) {
+@media (max-width: 1143px) {
 
-	.time-logo-section h3 {
-		font-size: 15pt !important;
+	.map-info h1 {
+		font-size: 28pt !important;
 	}
 
-}*/
+}
 
-/*@media (max-width: 1003px) {
+@media (max-width: 1137px) {
 
-	.time-logo-section h3, #phone, #phone input {
-		font-size: 14pt !important;
+	.colon h1 {
+		font-size: 38pt;
 	}
 
-}*/
+	.colon img {
+		height: 61px !important;
+	}
+
+}
+
+@media (max-width: 1049px) {
+
+	.colon h1 {
+		font-size: 34pt;
+	}
+
+}
 
 @media (max-width: 999px) {
 
-	.vertical-margin h1 {
+	.map-info h1 {
 		font-size: 24pt !important;
 	}
 
@@ -102,8 +110,9 @@
 	}
 
 	.time-logo-section {
-		/*margin-top: -4rem !important;*/
+		margin-top: 0rem !important;
 		margin-right: 0rem !important;
+		margin-bottom: 2rem;
 		padding-left: 0rem !important;
 		padding-right: 0rem !important;
 		text-align: center;
@@ -112,11 +121,7 @@
 	.time-logo-section h3 {
 		padding-right: 10rem !important;
 		padding-left: 10rem !important;
-	}
-
-	.timelogo img {
-		padding-left: 2rem;
-		padding-right: 2rem;
+		margin-bottom: 2rem;
 	}
 
 	.time-logo-section a {
@@ -163,13 +168,13 @@
 		margin-top: 12px !important;
 	}
 
-	.vertical-margin {
+	.map-info {
 		margin-bottom: 2rem !important;
 		margin-top: 2rem !important;
 		text-align: center;
 	}
 
-	.vertical-margin p {
+	.map-info p {
 		padding-right: 10rem !important;
 		padding-left: 10rem !important; 
 	}
@@ -210,12 +215,12 @@
 		font-size: 20pt;
 	}
 
-	.vertical-margin h1 {
+	.map-info h1 {
 		margin-top: 0rem !important;
 		margin-bottom: 0rem !important;
 	}
 
-	.vertical-margin {
+	.map-info {
 		margin-top: 5rem !important;
 		margin-bottom: 5rem !important;
 	}
@@ -232,7 +237,7 @@
 
 @media (max-width: 686px) {
 
-	.vertical-margin h1 {
+	.map-info h1 {
 		font-size: 24pt !important;
 	}
 
@@ -269,7 +274,7 @@
 
 @media (max-width: 557px) {
 
-	.vertical-margin h1 {
+	.map-info h1 {
 		font-size: 22pt !important;
 	}
 
@@ -285,7 +290,7 @@
 
 @media (max-width: 512px) {
 
-	.vertical-margin h1 {
+	.map-info h1 {
 		font-size: 20pt !important;
 	}
 
@@ -322,6 +327,15 @@
 }
 
 @media (max-width: 413px) {
+
+	.colon {
+		margin-top: 3rem;
+	}
+
+	.colon img {
+		height: 5rem;
+		margin-top: 0rem !important;
+	}
 
 	.apple {
 		margin-right: 0px !important;

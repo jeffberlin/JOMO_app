@@ -204,18 +204,18 @@ function ParseChar(sStr, sChar) {
 }
 
 // "TIME" flipper section SECTION
-var wordList = [
-    'Sports', 'Art', 'Friends', 'Music', 'Brunch', 'Games', 'Family', 'Racing', 'Fitness', 'Crafts', 'Surfing', 'Time'
-]
-var counter = 0;
+// var wordList = [
+//     'Sports', 'Art', 'Friends', 'Music', 'Brunch', 'Games', 'Family', 'Racing', 'Fitness', 'Crafts', 'Surfing', 'Time'
+// ]
+// var counter = 0;
 
-var picker = document.getElementById("word-picker");
-setInterval(changeText, 3000);
+// var picker = document.getElementById("word-picker");
+// setInterval(changeText, 3000);
 
-function changeText() {
-    picker.innerHTML = wordList[counter];
-    counter++;
-    if (counter >= wordList.length) {
-        counter = 0;
-    }
-}
+// function changeText() {
+//     picker.innerHTML = wordList[counter];
+//     counter++;
+//     if (counter >= wordList.length) {
+//         counter = 0;
+//     }
+// }

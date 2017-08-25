@@ -36,10 +36,15 @@
 
 .colon {
 	display: flex;
+	border: 1px solid red;
 }
 
 .colon img {
-	max-height: 10rem;
+	height: 80px;
+	margin-top: 2rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	vertical-align: middle;
 }
 
 .word-list {
@@ -101,4 +106,8 @@ form {
 	display: inline-block;
 	/*padding: 10px;*/
 	padding-left: 0px;
+}
+
+.apple-link {
+	margin-right: 1rem;
 }
