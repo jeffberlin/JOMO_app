@@ -272,13 +272,13 @@
 
 @media (max-width: 630px) {
 
-	.time-logo-section a img {
+	/*.time-logo-section a img {
 		padding: 5px;
-	}
+	}*/
 
-	.time-logo-section {
+	/*.time-logo-section {
 		margin-top: -5rem !important;
-	}
+	}*/
 
 }
 
@@ -298,13 +298,13 @@
 
 }
 
-@media (max-width: 543px) {
+/*@media (max-width: 543px) {
 
 	.time-logo-section {
 		margin-top: -8rem !important;
 	}
 
-}
+}*/
 
 @media (max-width: 512px) {
 
@@ -365,6 +365,13 @@
 
 }
 
+@media (max-width: 359px) {
+
+	.time-logo-section a {
+		padding: 1rem !important;
+	}
+}
+
 @media (max-width: 350px) {
 
 	.jomo-logo {
@@ -373,6 +380,14 @@
 
 	.partners a img {
 		height: 60px !important;
+	}
+
+}
+
+@media (max-width: 343px) {
+
+	.apple-link {
+		margin-right: 0 !important;
 	}
 }
 
@@ -390,7 +405,7 @@
 		padding: 0 !important;
 	}
 
-	.apple {
+	.apple-link {
 		margin-bottom: 2rem !important;
 	}
 
