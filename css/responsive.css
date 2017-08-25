@@ -12,14 +12,14 @@
 
 }
 
-@media (max-width: 1271px) {
+@media (max-width: 1275px) {
 
 	.colon h1 {
-		font-size: 42pt;
+		font-size: 56px;
 	}
 
 	.colon img {
-		height: 71px !important;
+		height: 80px !important;
 	}
 
 }
@@ -74,22 +74,26 @@
 
 }
 
-@media (max-width: 1137px) {
+@media (max-width: 1141px) {
 
 	.colon h1 {
-		font-size: 38pt;
+		font-size: 50px;
 	}
 
 	.colon img {
-		height: 61px !important;
+		height: 74px !important;
 	}
 
 }
 
-@media (max-width: 1049px) {
+@media (max-width: 1041px) {
 
 	.colon h1 {
-		font-size: 34pt;
+		font-size: 44px;
+	}
+
+	.colon img {
+		height: 68px !important;
 	}
 
 }
@@ -282,9 +286,9 @@
 
 @media (max-width: 543px) {
 
-	/*.time-logo-section {
+	.time-logo-section {
 		margin-top: -8rem !important;
-	}*/
+	}
 
 }
 
@@ -311,7 +315,6 @@
 
 @media (max-width: 469px) {
 
-
 	.jomo-logo {
 		width: 55%;
 	}
@@ -327,15 +330,6 @@
 }
 
 @media (max-width: 413px) {
-
-	.colon {
-		margin-top: 3rem;
-	}
-
-	.colon img {
-		height: 5rem;
-		margin-top: 0rem !important;
-	}
 
 	.apple {
 		margin-right: 0px !important;

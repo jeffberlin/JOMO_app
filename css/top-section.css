@@ -36,25 +36,21 @@
 
 .colon {
 	display: flex;
-	border: 1px solid red;
 }
 
 .colon img {
-	height: 80px;
-	margin-top: 2rem;
+	height: 88px;
+	margin-top: 10px;
 	margin-left: 3rem;
 	margin-right: 3rem;
-	vertical-align: middle;
 }
 
 .word-list {
-	/*margin-right: 3rem;*/
-	font-size: 48pt;
+	font-size: 64px;
 }
 
 .well-spent {
-	/*margin-left: 3rem;*/
-	font-size: 48pt;
+	font-size: 64px;
 }
 
 form {
