@@ -370,6 +370,11 @@
 	.time-logo-section a {
 		padding: 1rem !important;
 	}
+
+	.apple-link {
+		margin-right: 0 !important;
+	}
+
 }
 
 @media (max-width: 350px) {
@@ -384,13 +389,6 @@
 
 }
 
-@media (max-width: 343px) {
-
-	.apple-link {
-		margin-right: 0 !important;
-	}
-}
-
 @media (max-width: 340px) {
 
 	.donating h1 {
@@ -401,7 +399,7 @@
 
 @media (max-width: 335px) {
 
-	.time-logo-section a, .apple, .googleplay {
+	.time-logo-section a, .apple-link, .play-link {
 		padding: 0 !important;
 	}
 
