@@ -103,7 +103,8 @@
 	}
 
 	.form-group {
-		
+		margin-left: 30% !important;
+		width: 40% !important;
 	}
 
 	.timelogo img {
