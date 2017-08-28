@@ -46,10 +46,11 @@
 }
 
 .word-list {
-	font-size: 64px;
+	width: 213px;
+	text-align: right;
 }
 
-.well-spent {
+.well-spent, .word-list {
 	font-size: 64px;
 }
 
@@ -109,14 +110,3 @@ form {
 .apple-link {
 	margin-right: 1rem;
 }
-
-
-
-
-.word-list {
-	width: 213px;
-	text-align: right;
-}
-
-
-

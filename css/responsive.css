@@ -12,7 +12,7 @@
 
 }
 
-@media (max-width: 1275px) {
+@media (max-width: 1279px) {
 
 	.colon h1 {
 		font-size: 56px;
@@ -20,6 +20,10 @@
 
 	.colon img {
 		height: 80px !important;
+	}
+
+	.word-list {
+		width: 190px !important;
 	}
 
 }
@@ -54,14 +58,18 @@
 
 }
 
-@media (max-width: 1141px) {
+@media (max-width: 1153px) {
 
 	.colon h1 {
-		font-size: 50px;
+		font-size: 48px;
 	}
 
 	.colon img {
-		height: 74px !important;
+		height: 72px !important;
+	}
+
+	.word-list {
+		width: 158px !important;
 	}
 
 }
@@ -74,14 +82,14 @@
 
 }
 
-@media (max-width: 1041px) {
+@media (max-width: 1007px) {
 
 	.colon h1 {
-		font-size: 44px;
+		font-size: 40px;
 	}
 
 	.colon img {
-		height: 68px !important;
+		height: 64px !important;
 	}
 
 }
