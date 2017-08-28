@@ -19,7 +19,7 @@ function sendSMS(form) {
             alert("Sorry, something went wrong.");
         }
         else {
-            alert("Check your phone for our text!");
+            alert("We sent you the download link!");
         }
     };
     branch.sendSMS(phone, linkData, options, callback);
