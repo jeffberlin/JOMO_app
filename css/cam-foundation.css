@@ -7,20 +7,23 @@
 }
 
 .camlogo {
-	margin-top: 2rem;
-	margin-bottom: 3%;
+	margin-top: 10rem;
+	margin-bottom:3%;
+	margin-left: 13rem;
+	padding: 0;
 	vertical-align: middle;
 	text-align: center;
 }
 
 .camlogo img {
-	width: 224px;
+	width: 190px;
 }
 
 .donating {
-	margin-top: 3%;
-	margin-right: 10rem;
+	margin-top: 8rem;
+	margin-left: 6rem;
 	vertical-align: middle;
+	padding: 0;
 }
 
 .donating h1 {
@@ -40,6 +43,14 @@
 
 .camkids {
 	margin-bottom: 0 !important;
-/*	padding: 0 !important;
-*/	float: right;
+	float: right;
+	vertical-align: bottom;
+	display: flex;
+	padding: 0;
+}
+
+.camkids img {
+	height: 400px;
+	margin-top: 3rem;
+	margin-right: 0;
 }

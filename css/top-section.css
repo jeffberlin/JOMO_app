@@ -103,10 +103,20 @@ form {
 .time-logo-section a {
 	width: 165px;
 	display: inline-block;
-	/*padding: 10px;*/
 	padding-left: 0px;
 }
 
 .apple-link {
 	margin-right: 1rem;
 }
+
+
+
+
+.word-list {
+	width: 213px;
+	text-align: right;
+}
+
+
+
