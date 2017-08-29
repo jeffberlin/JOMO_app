@@ -4,12 +4,7 @@
 	padding: 0;
 }
 
-/*.timelogo img {
-	width: 200px;
-}*/
-
 .main {
-	/*background-image: url('../images/jomo charlotte3-min.jpg');*/
 	background-color: #30cf83;
 	background-position: center;
 	background-size: cover;
@@ -24,14 +19,12 @@
 .jomo-logo {
 	text-align: center;
 	margin-top: 82px;
-	/*padding: 10px;*/
 	width: 200px;
 	margin-bottom: 3rem;
 }
 
 .time-logo-section {
-/*	margin-top: 18rem;
-*/	vertical-align: middle;
+	vertical-align: middle;
 	text-align: center;
 }
 
@@ -47,26 +40,6 @@
 .phone-img img {
 	width: 300px;
 	margin-top: 82px;
-}
-
-.colon {
-	display: flex;
-}
-
-.colon img {
-	height: 88px;
-	margin-top: 10px;
-	margin-left: 3rem;
-	margin-right: 3rem;
-}
-
-.word-list {
-	width: 213px;
-	text-align: right;
-}
-
-.well-spent, .word-list {
-	font-size: 64px;
 }
 
 form {
@@ -121,7 +94,7 @@ form {
 }
 
 .input-group-field::placeholder {
-	color: white;
+	color: #3a4b58;
 }
 
 .input-group-button input {
