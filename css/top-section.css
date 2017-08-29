@@ -13,8 +13,8 @@
 }
 
 .time-logo-section h3 {
-	font-family: "UntitledSansTest-Medium";
-	color: #3a4b58;
+	font-family: "GT-Walsheim-Thin";
+	color: #ffffff;
 }
 
 .jomo-logo {
@@ -104,7 +104,7 @@ form {
 
 .input-group, .input-group-button {
 	display: table-cell;
-	border-bottom: 3px solid #ffffff;
+	border-bottom: 3px solid #3a4b58;
 	text-align: center;
 }
 
