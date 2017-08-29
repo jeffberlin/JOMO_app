@@ -5,19 +5,29 @@
 }
 
 .main {
-	background-image: url('../images/jomo charlotte3-min.jpg');
+	/*background-image: url('../images/jomo charlotte3-min.jpg');*/
+	background-color: #30cf83;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
+.time-logo-section h3 {
+	font-family: "UntitledSansTest-Medium";
+	color: #3a4b58;
+}
+
 .jomo-logo {
-	padding: 40px;
+	text-align: center;
+	margin-top: 82px;
+	padding: 10px;
+	height: 200px;
 }
 
 .time-logo-section {
-	margin-top: 18rem;
-	vertical-align: middle;
+/*	margin-top: 18rem;
+*/	vertical-align: middle;
+text-align: center;
 }
 
 .phone-img {
@@ -57,26 +67,29 @@
 form {
 	display: block;
 	width: 100%;
-	margin-left: 0 !important;
+	/*margin-left: 0 !important;
 	padding-left: 0 !important;
-	padding-right: 0 !important;
+	padding-right: 0 !important;*/
 	position: relative;
 	min-width: 341px;
+	text-align: center;
 }
 
 .form-group {
 	position: relative;
 	margin-bottom: 20px;
 	width: 50%;
-	text-align: left;
+	text-align: center;
 }
 
 .form-group input {
 	border: 0;
 	outline: none;
+	text-align: center;
 }
 
 .input-group input {
+	text-align: center;
 	background-color: transparent;
 	vertical-align: middle;
 	font-size: 18pt;
@@ -84,13 +97,15 @@ form {
 }
 
 .input-group {
+	text-align: center;
 	display: table;
 	width: 100%;
 }
 
 .input-group, .input-group-button {
 	display: table-cell;
-	border-bottom: 3px solid #30cf83;
+	border-bottom: 3px solid #ffffff;
+	text-align: center;
 }
 
 .input-group-button {
@@ -109,11 +124,4 @@ form {
 
 .apple-link {
 	margin-right: 1rem;
-}
-
-.word-list {
-	-webkit-transform-origin: 50% 100%;
-    top: 0;
-    -webkit-transform-origin: 50% 0%;
-    bottom: 0;
 }

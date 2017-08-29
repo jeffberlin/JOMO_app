@@ -22,7 +22,7 @@
 }
 
 .map-info {
-	margin-top: 18rem;
+	margin-top: 16rem;
 	vertical-align: middle;
 	padding: 0;
 }
@@ -32,6 +32,6 @@
 }
 
 .map-info p {
-	font-size: 20pt;
+	font-size: 18pt;
 	margin-top: 20px;
 }

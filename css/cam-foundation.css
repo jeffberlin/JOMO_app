@@ -26,7 +26,7 @@
 	padding: 0;
 }
 
-.donating h1 {
+.dollar {
 	font-family: "GT-Walsheim-Medium";
 	color: #e0e645;
 	letter-spacing: .75px;
@@ -39,6 +39,15 @@
 	color: #ffffff;
 	letter-spacing: .75px;
 	font-size: 16pt;
+}
+
+.cam-tagline {
+	font-family: "GT-Walsheim-Medium";
+	color: #ffffff;
+}
+
+.joy {
+	font-family: "GT-Walsheim-Medium";
 }
 
 .camkids {
