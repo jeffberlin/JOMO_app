@@ -4,6 +4,17 @@
 	padding: 0;
 }
 
+.time {
+	font-family: "GT-Walsheim-Medium";
+	color: #3a4b58;
+	/*color: #ffffff;*/
+
+}
+
+.timelogo img {
+	width: 200px;
+}
+
 .main {
 	/*background-image: url('../images/jomo charlotte3-min.jpg');*/
 	background-color: #30cf83;
@@ -115,6 +126,13 @@ form {
 	text-align: center;
 	width: 10%;
 	height: 100%;
+}
+
+.input-group-button input {
+	background-color: transparent;
+	color: #ffffff;
+	font-family: "GT-Walsheim-Thin";
+	font-size: 14pt;
 }
 
 .time-logo-section a {
