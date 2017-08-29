@@ -125,7 +125,7 @@ form {
 }
 
 .time-logo-section a img {
-	box-shadow: 0px 20px 30px 0 rgba(60,185,95,0.8);
+	box-shadow: 0px 20px 30px 0 rgba(60,185,95,0.9);
 	border-radius: 11px;
 }
 
@@ -154,6 +154,10 @@ form {
 
 .header-under input::value {
 	color: white;
+}
+
+.downarrow img {
+	text-align: center;
 }
 
 .downarrow {
