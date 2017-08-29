@@ -4,16 +4,9 @@
 	padding: 0;
 }
 
-.time {
-	font-family: "GT-Walsheim-Medium";
-	color: #3a4b58;
-	/*color: #ffffff;*/
-
-}
-
-.timelogo img {
+/*.timelogo img {
 	width: 200px;
-}
+}*/
 
 .main {
 	/*background-image: url('../images/jomo charlotte3-min.jpg');*/
@@ -31,14 +24,15 @@
 .jomo-logo {
 	text-align: center;
 	margin-top: 82px;
-	padding: 10px;
-	height: 200px;
+	/*padding: 10px;*/
+	width: 200px;
+	margin-bottom: 3rem;
 }
 
 .time-logo-section {
 /*	margin-top: 18rem;
 */	vertical-align: middle;
-text-align: center;
+	text-align: center;
 }
 
 .phone-img {
@@ -90,26 +84,24 @@ form {
 .form-group {
 	position: relative;
 	margin-bottom: 20px;
-	width: 50%;
+	width: 375px;
 	text-align: center;
 }
 
 .form-group input {
 	border: 0;
 	outline: none;
-	text-align: center;
 }
 
 .input-group input {
-	text-align: center;
 	background-color: transparent;
 	vertical-align: middle;
 	font-size: 18pt;
 	letter-spacing: .95px;
+	text-align: left;
 }
 
 .input-group {
-	text-align: center;
 	display: table;
 	width: 100%;
 }
@@ -117,7 +109,7 @@ form {
 .input-group, .input-group-button {
 	display: table-cell;
 	border-bottom: 3px solid #3a4b58;
-	text-align: center;
+	text-align: left;
 }
 
 .input-group-button {
@@ -128,11 +120,18 @@ form {
 	height: 100%;
 }
 
+.input-group-field::placeholder {
+	color: white;
+}
+
 .input-group-button input {
-	background-color: transparent;
+	background-color: #3a4b58;
 	color: #ffffff;
 	font-family: "GT-Walsheim-Thin";
 	font-size: 14pt;
+	padding-left: 5px;
+	padding-right: 5px;
+	vertical-align: middle;
 }
 
 .time-logo-section a {

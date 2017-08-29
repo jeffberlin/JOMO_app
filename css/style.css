@@ -50,7 +50,12 @@ html, body {
 	color: #3a4b58;
 }
 
-#phone, #phone input, .vertical-margin p, .bottom-info h5, footer p {
+.vertical-margin p, .bottom-info h5, footer p {
 	font-family: "UntitledSansTest-Light";
 	color: #3a4b58;
+}
+
+#phone, #phone input {
+	font-family: "GT-Walsheim-Thin";
+	color: #ffffff;
 }
