@@ -112,10 +112,18 @@ form {
 	vertical-align: middle;
 }
 
+.input-group-button input:active {
+	transform: translateY(5px);
+}
+
 .time-logo-section a {
 	width: 165px;
 	display: inline-block;
 	padding-left: 0px;
+}
+
+.time-logo-section a img:active {
+	transform: translateY(1px);
 }
 
 .time-logo-section a img {
