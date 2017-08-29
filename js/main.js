@@ -8,6 +8,7 @@ if ( /Android|Opera Mini/i.test(navigator.userAgent) ) {
 
 if ( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
     document.getElementById("play-img").style.display = 'none';
+    document.getElementById("ios-img").style.marginRight = '0';
 }
 
 // Branch code for sending the SMS
