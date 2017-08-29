@@ -12,22 +12,6 @@
 
 }
 
-@media (max-width: 1279px) {
-
-	.colon h1 {
-		font-size: 56px;
-	}
-
-	.colon img {
-		height: 80px !important;
-	}
-
-	.word-list {
-		width: 190px !important;
-	}
-
-}
-
 @media (max-width: 1199px) {
 
 	.donating {
@@ -58,21 +42,6 @@
 
 }
 
-@media (max-width: 1153px) {
-
-	.colon h1 {
-		font-size: 48px;
-	}
-
-	.colon img {
-		height: 72px !important;
-	}
-
-	.word-list {
-		width: 158px !important;
-	}
-
-}
 
 @media (max-width: 1131px) {
 
@@ -82,24 +51,12 @@
 
 }
 
-@media (max-width: 1007px) {
-
-	.colon h1 {
-		font-size: 40px;
-	}
-
-	.colon img {
-		height: 64px !important;
-	}
-
-}
-
 @media (max-width: 991px) {
 
-	.jomo-logo {
+	/*.jomo-logo {
 		width: 35%;
 		text-align: center;
-	}
+	}*/
 
 	.time-logo-section {
 		margin-top: 1rem !important;
@@ -113,10 +70,6 @@
 	.form-group {
 		margin-left: auto !important;
 		width: 341px !important;
-	}
-
-	.timelogo img {
-		width: 60%;
 	}
 
 	.time-logo-section h3 {
@@ -203,13 +156,9 @@
 
 @media (max-width: 767px) {
 
-	.jomo-logo {
+	/*.jomo-logo {
 		width: 45%;
-	}
-
-	.timelogo img {
-		width: 75% !important;
-	}
+	}*/
 
 	.donating {
 		margin-right: 0rem !important;
@@ -299,9 +248,9 @@
 
 @media (max-width: 469px) {
 
-	.jomo-logo {
+	/*.jomo-logo {
 		width: 55%;
-	}
+	}*/
 
 }
 
@@ -345,10 +294,10 @@
 
 @media (max-width: 350px) {
 
-	.jomo-logo {
+	/*.jomo-logo {
 		width: 60%;
 	}
-
+*/
 	.partners a img {
 		height: 60px !important;
 	}

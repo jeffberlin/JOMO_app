@@ -16,13 +16,12 @@
 .jomo-logo {
 	text-align: center;
 	margin-top: 82px;
-	width: 200px;
+	height: 190px;
 	margin-bottom: 3rem;
 }
 
 .time-logo-section {
 	vertical-align: middle;
-	text-align: center;
 	margin-bottom: 4rem;
 }
 
@@ -33,7 +32,7 @@
 	margin-bottom: 6rem;
 }
 
-.phone-img {
+/*.phone-img {
 	position: relative;
 	vertical-align: middle;
 }
@@ -45,7 +44,7 @@
 .phone-img img {
 	width: 300px;
 	margin-top: 82px;
-}
+}*/
 
 form {
 	margin-top: 3rem;
@@ -63,7 +62,6 @@ form {
 	position: relative;
 	margin-bottom: 20px;
 	width: 375px;
-	text-align: center;
 }
 
 .form-group input {
@@ -93,7 +91,6 @@ form {
 .input-group-button {
 	padding-top: 0;
 	padding-bottom: 0;
-	text-align: center;
 	width: 10%;
 	height: 100%;
 }
@@ -141,10 +138,6 @@ form {
 	color: #ffffff;
 }
 
-.header-under {
-	
-}
-
 .header-under input {
 	background-color: transparent;
 	border: 0;
@@ -165,5 +158,5 @@ form {
 
 .downarrow {
 	width: 20px;
-	/*margin-bottom: 10rem;*/
+	margin-bottom: 10rem;
 }
