@@ -22,7 +22,7 @@
 .time-logo-section {
 	vertical-align: middle;
 	text-align: center;
-	margin-bottom: 10rem;
+	margin-bottom: 4rem;
 }
 
 .time-logo-section h3 {
@@ -133,4 +133,36 @@ form {
 
 .apple-link {
 	margin-right: 1rem;
+}
+
+.header-under h4 {
+	font-family: "GT-Walsheim-Thin";
+	color: #ffffff;
+}
+
+.header-under {
+	
+}
+
+.header-under input {
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+	color: #ffffff;
+	text-decoration: underline;
+	font-family: "GT-Walsheim-Thin";
+	letter-spacing: 0.05em;
+	line-height: 1.46;
+	font-weight: 900;
+	outline: none;
+}
+
+.header-under input::value {
+	color: white;
+}
+
+.downarrow {
+	width: 25px;
+	margin-bottom: 10rem;
 }
