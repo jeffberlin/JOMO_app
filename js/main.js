@@ -223,31 +223,15 @@ function ParseChar(sStr, sChar) {
 
 // OS detection
 
-/**
- * Determine the mobile operating system.
- * This function returns one of 'iOS', 'Android', 'Windows Phone', or 'unknown'.
- *
- * @returns {String}
- */
-function getMobileOperatingSystem() {
-  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+// if( /Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent) ) {
+//  console.log(navigator.userAgent);
+// }
 
-      // Windows Phone must come first because its UA also contains "Android"
-    if (/windows phone/i.test(userAgent)) {
-        return "Windows Phone";
-    }
-
-    if (/android/i.test(userAgent)) {
-        return "Android";
-    }
-
-    // iOS detection from: http://stackoverflow.com/a/9039885/177710
-    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        return document.getElementsByClassName("apple-link").innerHTML = "Hello";
-    }
-
-    return "unknown";
+if ( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+    document.getElementById("play-img").style.visibility = 'hidden';
+    console.log("iOS");
 }
+
 // var isMobile = {
 //     getUserAgent: () => {
 //         return navigator.userAgent;
