@@ -10,6 +10,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
+	height: 100vh;
 }
 
 .jomo-logo {
@@ -164,5 +165,5 @@ form {
 
 .downarrow {
 	width: 20px;
-	margin-bottom: 10rem;
+	/*margin-bottom: 10rem;*/
 }
