@@ -208,6 +208,7 @@ function ParseChar(sStr, sChar) {
 var wordList = [
     'Sports', 'Art', 'Friends', 'Music', 'Brunch', 'Games', 'Family', 'Racing', 'Fitness', 'Crafts', 'Surfing', 'Time'
 ]
+
 var counter = 0;
 
 var picker = document.getElementById("word-picker");
@@ -220,3 +221,4 @@ function changeText() {
         counter = 0;
     }
 }
+

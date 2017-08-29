@@ -5,7 +5,7 @@
 }
 
 .main {
-	background-image: url('../images/jomo-charlotte3-min.jpg');
+	background-image: url('../images/jomo charlotte3-min.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -109,4 +109,11 @@ form {
 
 .apple-link {
 	margin-right: 1rem;
+}
+
+.word-list {
+	-webkit-transform-origin: 50% 100%;
+    top: 0;
+    -webkit-transform-origin: 50% 0%;
+    bottom: 0;
 }
