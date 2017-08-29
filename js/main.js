@@ -1,5 +1,15 @@
 // Code created for the JOMO, Inc. website. Designed by Ryan Payne, code written by Jeff Berlin
 
+// OS detection
+
+if ( /Android|Opera Mini/i.test(navigator.userAgent) ) {
+    document.getElementById("ios-img").style.display = 'none';
+}
+
+if ( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+    document.getElementById("play-img").style.display = 'none';
+}
+
 // Branch code for sending the SMS
 (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode".split(" "), 0);
 branch.init('key_test_djAFXqGoN9vI70AOXY5VlcefztgADlwt'); // Replace test with key_live_ohrv5AHoL4tI22EG722Bkkhgsyhsqksn
@@ -204,34 +214,7 @@ function ParseChar(sStr, sChar) {
     return sNewStr;
 }
 
-// "TIME" flipper section
-// var wordList = [
-//     'Sports', 'Art', 'Friends', 'Music', 'Brunch', 'Games', 'Family', 'Racing', 'Fitness', 'Crafts', 'Surfing', 'Time'
-// ]
-// var counter = 0;
 
-// var picker = document.getElementById("word-picker");
-// setInterval(changeText, 3000);
-
-// function changeText() {
-//     picker.innerHTML = wordList[counter];
-//     counter++;
-//     if (counter >= wordList.length) {
-//         counter = 0;
-//     }
-// }
-
-// OS detection
-
-if ( /Android|webOS|Opera Mini/i.test(navigator.userAgent) ) {
-    document.getElementById("ios-img").style.visibility = 'hidden';
-    console.log("Android");
-}
-
-if ( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
-    document.getElementById("play-img").style.visibility = 'hidden';
-    console.log("iOS");
-}
 
 // var isMobile = {
 //     getUserAgent: () => {
