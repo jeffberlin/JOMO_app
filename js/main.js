@@ -222,43 +222,67 @@ function ParseChar(sStr, sChar) {
 // }
 
 // OS detection
-var isMobile = {
-    getUserAgent: () => {
-        return navigator.userAgent;
-    },
-     Android: function() {
-        return /Android/i.test(isMobile.getUserAgent()) && !isMobile.Windows();
-    },
-    BlackBerry: function() {
-        return /BlackBerry|BB10|PlayBook/i.test(isMobile.getUserAgent());;
-    },
-    iPhone: function() {
-        //console.log("iphone");
-        return /iPhone/i.test(isMobile.getUserAgent()) && !isMobile.iPad() && !isMobile.Windows();
 
-    },
-    iPod: function() {
-        return /iPod/i.test(isMobile.getUserAgent());
-    },
-    iPad: function() {
-        return /iPad/i.test(isMobile.getUserAgent());
-    },
-    iOS: function() {
-        console.log("iphone");
-        return (isMobile.iPad() || isMobile.iPod() || isMobile.iPhone());
-    },
-    Opera: function() {
-        return /Opera Mini/i.test(isMobile.getUserAgent());
-    },
-    Windows: function() {
-        return /Windows Phone|IEMobile|WPDesktop/i.test(isMobile.getUserAgent());
-    },
-    KindleFire: function() {
-        return /Kindle Fire|Silk|KFAPWA|KFSOWI|KFJWA|KFJWI|KFAPWI|KFAPWI|KFOT|KFTT|KFTHWI|KFTHWA|KFASWI|KFTBWI|KFMEWI|KFFOWI|KFSAWA|KFSAWI|KFARWI/i.test(isMobile.getUserAgent());
-    },
-    any: function() {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+/**
+ * Determine the mobile operating system.
+ * This function returns one of 'iOS', 'Android', 'Windows Phone', or 'unknown'.
+ *
+ * @returns {String}
+ */
+function getMobileOperatingSystem() {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+      // Windows Phone must come first because its UA also contains "Android"
+    if (/windows phone/i.test(userAgent)) {
+        return "Windows Phone";
     }
-};
+
+    if (/android/i.test(userAgent)) {
+        return "Android";
+    }
+
+    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        return document.getElementsByClassName("apple-link").innerHTML = "Hello";
+    }
+
+    return "unknown";
+}
+// var isMobile = {
+//     getUserAgent: () => {
+//         return navigator.userAgent;
+//     },
+//      Android: function() {
+//         return /Android/i.test(isMobile.getUserAgent()) && !isMobile.Windows();
+//     },
+//     BlackBerry: function() {
+//         return /BlackBerry|BB10|PlayBook/i.test(isMobile.getUserAgent());;
+//     },
+//     iPhone: function() {
+//         return /iPhone/i.test(isMobile.getUserAgent()) && !isMobile.iPad() && !isMobile.Windows();
+
+//     },
+//     iPod: function() {
+//         return /iPod/i.test(isMobile.getUserAgent());
+//     },
+//     iPad: function() {
+//         return /iPad/i.test(isMobile.getUserAgent());
+//     },
+//     iOS: function() {
+//         return (isMobile.iPad() || isMobile.iPod() || isMobile.iPhone());
+//     },
+//     Opera: function() {
+//         return /Opera Mini/i.test(isMobile.getUserAgent());
+//     },
+//     Windows: function() {
+//         return /Windows Phone|IEMobile|WPDesktop/i.test(isMobile.getUserAgent());
+//     },
+//     KindleFire: function() {
+//         return /Kindle Fire|Silk|KFAPWA|KFSOWI|KFJWA|KFJWI|KFAPWI|KFAPWI|KFOT|KFTT|KFTHWI|KFTHWA|KFASWI|KFTBWI|KFMEWI|KFFOWI|KFSAWA|KFSAWI|KFARWI/i.test(isMobile.getUserAgent());
+//     },
+//     any: function() {
+//         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+//     }
+// };
 
 //module.exports = isMobile;
