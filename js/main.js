@@ -16,24 +16,25 @@ branch.init('key_test_djAFXqGoN9vI70AOXY5VlcefztgADlwt'); // Replace test with k
 
 function sendSMS(form) {
     var phone = form.phone.value;
-    var linkData = {
-        tags: [],
-        channel: 'Website',
-        feature: 'TextMeTheApp',
-        data: {
-        }
-    };
+    // var linkData = {
+    //     tags: [],
+    //     channel: 'Website',
+    //     feature: 'TextMeTheApp',
+    //     data: {
+    //     }
+    // };
     var options = {};
     var callback = function(err, result) {
         if (err) {
             alert("Sorry, something went wrong.");
         }
         else {
+            form.phone.value = "";
             alert("We sent you the download link!");
         }
     };
-    branch.sendSMS(phone, linkData, options, callback);
-    form.phone.value = "";
+    branch.sendSMS(phone, options, callback);
+    
 }
 
 // Opens all links in a new tab
