@@ -223,9 +223,10 @@ function ParseChar(sStr, sChar) {
 
 // OS detection
 
-// if( /Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent) ) {
-//  console.log(navigator.userAgent);
-// }
+if ( /Android|webOS|Opera Mini/i.test(navigator.userAgent) ) {
+    document.getElementById("ios-img").style.visibility = 'hidden';
+    console.log("Android");
+}
 
 if ( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
     document.getElementById("play-img").style.visibility = 'hidden';
