@@ -216,12 +216,15 @@ function ParseChar(sStr, sChar) {
     return sNewStr;
 }
 
-// $(".cam-button").click(function() {
-//     $(window).scrollTop($(".cam").offset().top);
-// });
-
+// 'Learn More' and down arrow button functions
 $(".cam-button").click(function() {
     $('html,body').animate({
         scrollTop: $(".cam").offset().top
+    }, 'slow')
+})
+
+$(".downarrow-button").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".map").offset().top
     }, 'slow')
 })
