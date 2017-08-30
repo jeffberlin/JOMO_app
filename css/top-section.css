@@ -139,9 +139,10 @@ form {
 .header-under h4 {
 	font-family: "GT-Walsheim-Thin";
 	color: #ffffff;
+	margin-top: 2rem;
 }
 
-.header-under {
+.header-under input {
 	background-color: transparent;
 	border: 0;
 	border-radius: 0;
@@ -160,9 +161,9 @@ form {
 }
 
 .downarrow img {
+	width: 20px;
 }
 
 .downarrow {
-	width: 20px;
 	text-align: center;
 }
