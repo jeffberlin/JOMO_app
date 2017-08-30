@@ -45,9 +45,13 @@
 
 @media (max-width: 1131px) {
 
-	.map-info {
+	.map-info h1, .map-info p {
 		margin-left: 5rem !important;
 	}
+
+	/*.phonemap img {
+		margin-right: 5rem !important;
+	}*/
 
 }
 

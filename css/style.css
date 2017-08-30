@@ -45,12 +45,12 @@ html, body {
 	margin-bottom: 0px;
 }
 
-.colon h1, .list h1, .partnerships h1, .bottom-info h2, .bottom-header h1, .vertical-margin h1  {
+.colon h1, .list h1, .partnerships h1, .bottom-info h2, .bottom-header h1, .map-info h1  {
 	font-family: "GT-Walsheim-Medium";
 	color: #3a4b58;
 }
 
-.vertical-margin p, .bottom-info h5, footer p {
+.map-info p, .bottom-info h5, footer p {
 	font-family: "UntitledSansTest-Light";
 	color: #3a4b58;
 }
