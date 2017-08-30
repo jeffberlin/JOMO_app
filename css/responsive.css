@@ -53,11 +53,6 @@
 
 @media (max-width: 991px) {
 
-	/*.jomo-logo {
-		width: 35%;
-		text-align: center;
-	}*/
-
 	.time-logo-section {
 		margin-top: 1rem !important;
 		margin-right: 0rem !important;
@@ -155,10 +150,6 @@
 }
 
 @media (max-width: 767px) {
-
-	/*.jomo-logo {
-		width: 45%;
-	}*/
 
 	.donating {
 		margin-right: 0rem !important;
@@ -274,10 +265,6 @@
 
 @media (max-width: 359px) {
 
-	/*.time-logo-section a {
-		padding: 1rem !important;
-	}*/
-
 	.apple-link {
 		margin-right: 0 !important;
 	}
@@ -286,10 +273,6 @@
 
 @media (max-width: 350px) {
 
-	/*.jomo-logo {
-		width: 60%;
-	}
-*/
 	.partners a img {
 		height: 60px !important;
 	}

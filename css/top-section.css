@@ -11,18 +11,19 @@
 	background-repeat: no-repeat;
 	text-align: center;
 	height: 100vh;
+	vertical-align: middle;
 	/*min-height: */
 }
 
 .time-logo-section {
 	vertical-align: middle;
 	margin: 5vh 0;
-	margin-bottom: 4rem;
+	/*margin-bottom: 4rem;*/
 }
 
 .jomo-logo {
 	text-align: center;
-	margin-top: 82px;
+	/*margin-top: 82px;*/
 	height: 15rem;
 	margin-bottom: 3rem;
 }
@@ -140,7 +141,7 @@ form {
 	color: #ffffff;
 }
 
-.header-under input {
+.header-under {
 	background-color: transparent;
 	border: 0;
 	border-radius: 0;
@@ -159,9 +160,9 @@ form {
 }
 
 .downarrow img {
-	width: 20px;
 }
 
 .downarrow {
+	width: 20px;
 	text-align: center;
 }
