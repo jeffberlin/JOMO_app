@@ -94,7 +94,7 @@ form {
 .input-group-button {
 	padding-top: 0;
 	padding-bottom: 0;
-	width: 10%;
+	/*width: 10%;*/
 	height: 100%;
 }
 
