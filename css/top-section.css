@@ -11,18 +11,20 @@
 	background-repeat: no-repeat;
 	text-align: center;
 	height: 100vh;
+	/*min-height: */
+}
+
+.time-logo-section {
+	vertical-align: middle;
+	margin: 5vh 0;
+	margin-bottom: 4rem;
 }
 
 .jomo-logo {
 	text-align: center;
 	margin-top: 82px;
-	height: 190px;
+	height: 15rem;
 	margin-bottom: 3rem;
-}
-
-.time-logo-section {
-	vertical-align: middle;
-	margin-bottom: 4rem;
 }
 
 .time-logo-section h3 {
@@ -100,9 +102,9 @@ form {
 }
 
 .input-group-button input {
-	background-color: #3a4b58;
+	background-color: #d2d4d3;
 	border-radius: 10px;
-	color: #ffffff;
+	color: #3a4b58;
 	font-family: "GT-Walsheim-Thin";
 	font-size: 14pt;
 	padding-left: 10px;
@@ -157,10 +159,9 @@ form {
 }
 
 .downarrow img {
-	text-align: center;
+	width: 20px;
 }
 
 .downarrow {
-	width: 20px;
-	margin-bottom: 10rem;
+	text-align: center;
 }

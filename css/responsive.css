@@ -246,14 +246,6 @@
 
 }
 
-@media (max-width: 469px) {
-
-	/*.jomo-logo {
-		width: 55%;
-	}*/
-
-}
-
 @media (max-width: 430px) {
 
 	.partnerships p {
@@ -282,9 +274,9 @@
 
 @media (max-width: 359px) {
 
-	.time-logo-section a {
+	/*.time-logo-section a {
 		padding: 1rem !important;
-	}
+	}*/
 
 	.apple-link {
 		margin-right: 0 !important;
@@ -318,7 +310,7 @@
 		padding: 0 !important;
 	}
 
-	.time-logo-section, .time-logo-section h3, .apple-link {
+	.time-logo-section, .time-logo-section h3 {
 		margin-bottom: 2rem !important;
 	}
 
