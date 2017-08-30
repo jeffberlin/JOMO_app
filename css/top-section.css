@@ -24,7 +24,7 @@
 .jomo-logo {
 	text-align: center;
 	/*margin-top: 82px;*/
-	height: 15rem;
+	height: 127px;
 	margin-bottom: 3rem;
 }
 
@@ -103,13 +103,14 @@ form {
 }
 
 .input-group-button input {
-	background-color: #d2d4d3;
+	background-color: transparent;
 	border-radius: 10px;
 	color: #3a4b58;
 	font-family: "GT-Walsheim-Thin";
+	font-weight: 900;
 	font-size: 14pt;
-	padding-left: 10px;
-	padding-right: 10px;
+	/*padding-left: 10px;*/
+	/*padding-right: 10px;*/
 	vertical-align: middle;
 }
 
