@@ -112,10 +112,11 @@ form {
 	/*padding-left: 10px;*/
 	/*padding-right: 10px;*/
 	vertical-align: middle;
+	padding: 0;
 }
 
 .input-group-button input:active {
-	transform: translateY(5px);
+	transform: translateY(2px);
 }
 
 .time-logo-section a {
