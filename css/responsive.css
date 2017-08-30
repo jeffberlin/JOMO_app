@@ -304,4 +304,12 @@
 		margin-bottom: 2rem !important;
 	}
 
+	.jomo-logo {
+		height: 100px !important;
+	}
+
+	.time-logo-section h3 {
+		font-size: 28pt !important;
+	}
+
 }
