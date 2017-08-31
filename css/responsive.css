@@ -32,7 +32,6 @@
 
 	.donating {
 		margin-right: 0rem !important;
-		margin-bottom: 5rem !important;
 	}
 
 	.phonemap h1 {
@@ -149,6 +148,10 @@
 	.dollar {
 		text-align: center;
 		font-size: 24pt;
+		margin-top: 0 !important;
+	}
+
+	.camkids img {
 		margin-top: 0 !important;
 	}
 
