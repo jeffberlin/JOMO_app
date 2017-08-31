@@ -5,7 +5,7 @@
 }
 
 .main {
-	background-color: #30cf83;
+	background-image: url('../images/jomo charlotte3-min.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -27,8 +27,8 @@
 }
 
 .time-logo-section h3 {
-	font-family: "GT-Walsheim-Thin";
-	color: #ffffff;
+	font-family: "GT-Walsheim-Medium";
+	color: #3a4b58;
 	font-size: 32pt;
 	margin-bottom: 5rem;
 }
@@ -67,7 +67,7 @@ form {
 
 .input-group, .input-group-button {
 	display: table-cell;
-	border-bottom: 3px solid #3a4b58;
+	border-bottom: 3px solid #30cf83;
 	text-align: left;
 }
 
@@ -78,7 +78,7 @@ form {
 }
 
 .input-group-field::placeholder {
-	color: #ffffff;
+	color: #3a4b58;
 }
 
 .input-group-button input {
@@ -107,8 +107,8 @@ form {
 }
 
 .time-logo-section a img {
-	box-shadow: 0px 20px 30px 0 rgba(34,107,54,0.5);
-	border-radius: 11px;
+	/*box-shadow: 0px 20px 30px 0 rgba(34,107,54,0.5);*/
+	/*border-radius: 3px;*/
 }
 
 .apple-link {
@@ -122,7 +122,7 @@ form {
 
 .header-under h4 {
 	font-family: "GT-Walsheim-Thin";
-	color: #ffffff;
+	color: #3a4b58;
 	
 }
 
@@ -131,7 +131,7 @@ form {
 	border: 0;
 	border-radius: 0;
 	padding: 0;
-	color: #ffffff;
+	color: #3a4b58;
 	text-decoration: underline;
 	font-family: "GT-Walsheim-Thin";
 	letter-spacing: 0.05em;
