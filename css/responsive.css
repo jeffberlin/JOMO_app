@@ -139,7 +139,6 @@
 	.donating {
 		margin-top: 0 !important;
 		margin-bottom: 4% !important;
-		margin-right: 0rem !important;
 		margin-left: 0px !important;
 	}
 
@@ -147,8 +146,8 @@
 		text-align: center;
 		font-size: 24pt;
 		margin-top: 0 !important;
-		padding-left: 12px;
-		padding-right: 12px;
+		margin-left: 2rem !important;
+		margin-right: 2rem !important;
 	}
 
 	.camkids img {
