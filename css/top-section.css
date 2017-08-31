@@ -12,6 +12,7 @@
 	text-align: center;
 	height: 101vh;
 	vertical-align: middle;
+	min-height: 580px;
 	/*min-height: */
 }
 

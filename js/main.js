@@ -1,7 +1,6 @@
 // Code created for the JOMO, Inc. website. Designed by Ryan Payne, code written by Jeff Berlin
 
 // OS detection
-
 if ( /Android|Opera Mini/i.test(navigator.userAgent) ) {
     document.getElementById("ios-img").style.display = 'none';
 }
@@ -17,28 +16,28 @@ branch.init('key_live_ohrv5AHoL4tI22EG722Bkkhgsyhsqksn'); // Test code: key_test
 
 function sendSMS(form) {
     var phone = form.phone.value;
-    // var linkData = {
-    //     tags: [],
-    //     channel: 'Website',
-    //     feature: 'TextMeTheApp',
-    //     data: {
-    //     }
-    // };
-    
-    branch.sendSMS(
-    //phone: "9999999999",
-    {
-        tags: ['tag1', 'tag2'],
+    var linkData = {
+        tags: [ 'tag1', 'tag2'],
         channel: 'facebook',
         feature: 'dashboard',
-        stage: 'new user',
         data: {
-            foo: 'bar'
         }
-    },
-    { make_new_link: false }, // Default: false. If set to true, sendSMS will generate a new link even if one already exists.
-    function(err) { console.log(err); }
-);
+    };
+    
+//     branch.sendSMS(
+//     //phone: "9999999999",
+//     {
+//         tags: ['tag1', 'tag2'],
+//         channel: 'facebook',
+//         feature: 'dashboard',
+//         stage: 'new user',
+//         data: {
+//             foo: 'bar'
+//         }
+//     },
+//     { make_new_link: false }, // Default: false. If set to true, sendSMS will generate a new link even if one already exists.
+//     function(err) { console.log(err); }
+// );
     var options = {};
     var callback = function(err, result) {
         if (err) {
@@ -49,7 +48,7 @@ function sendSMS(form) {
             alert("We sent you the download link!");
         }
     };
-    branch.sendSMS(phone, options, callback);
+    branch.sendSMS(phone, linkData, options, callback);
     
 }
 
