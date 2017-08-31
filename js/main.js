@@ -12,32 +12,20 @@ if ( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
 
 // Branch code for sending the SMS
 (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode".split(" "), 0);
-branch.init('key_live_ohrv5AHoL4tI22EG722Bkkhgsyhsqksn'); // Test code: key_test_djAFXqGoN9vI70AOXY5VlcefztgADlwt
+branch.init('key_live_ohrv5AHoL4tI22EG722Bkkhgsyhsqksn'); // Test code: key_test_djAFXqGoN9vI70AOXY5VlcefztgADlwt,key_live_ohrv5AHoL4tI22EG722Bkkhgsyhsqksn
 
 function sendSMS(form) {
     var phone = form.phone.value;
     var linkData = {
-        tags: [ 'tag1', 'tag2'],
+        tags: [],
         channel: 'facebook',
-        feature: 'dashboard',
+        feature: '',
+        stage: 'new user',
         data: {
+            foo: 'bar'
         }
     };
     
-//     branch.sendSMS(
-//     //phone: "9999999999",
-//     {
-//         tags: ['tag1', 'tag2'],
-//         channel: 'facebook',
-//         feature: 'dashboard',
-//         stage: 'new user',
-//         data: {
-//             foo: 'bar'
-//         }
-//     },
-//     { make_new_link: false }, // Default: false. If set to true, sendSMS will generate a new link even if one already exists.
-//     function(err) { console.log(err); }
-// );
     var options = {};
     var callback = function(err, result) {
         if (err) {

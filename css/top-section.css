@@ -13,13 +13,11 @@
 	height: 101vh;
 	vertical-align: middle;
 	min-height: 580px;
-	/*min-height: */
 }
 
 .time-logo-section {
 	vertical-align: middle;
 	margin: 15vh 0;
-	/*margin-bottom: 4rem;*/
 }
 
 .jomo-logo {
@@ -90,8 +88,6 @@ form {
 	font-family: "GT-Walsheim-Thin";
 	font-weight: 900;
 	font-size: 14pt;
-	/*padding-left: 10px;*/
-	/*padding-right: 10px;*/
 	vertical-align: middle;
 	padding: 0;
 }
