@@ -1,13 +1,17 @@
 /* Code created for the JOMO, Inc. website. Designed by Ryan Payne, code written by Jeff Berlin */
 
-@media (max-width: 1301px) {
-
-	.donating h1 {
-		font-size: 26pt;
-	}
+@media (max-width: 1363px) {
 
 	.donating h5 {
-		font-size: 10pt;
+		font-size: 14pt !important;
+	}
+
+}
+
+@media (max-width: 1301px) {
+
+	.dollar {
+		font-size: 26pt;
 	}
 
 }
@@ -41,6 +45,20 @@
 
 }
 
+@media (max-width: 1160px) {
+
+	.camlogo {
+		margin-left: 8rem !important;
+	}
+}
+
+@media (max-width: 1143px) {
+
+	.dollar {
+		font-size: 24pt;
+	}
+}
+
 
 @media (max-width: 1131px) {
 
@@ -48,16 +66,11 @@
 		margin-left: 5rem !important;
 	}
 
-	/*.phonemap img {
-		margin-right: 5rem !important;
-	}*/
-
 }
 
 @media (max-width: 991px) {
 
 	.time-logo-section {
-		/*margin-top: 1rem !important;*/
 		margin-right: 0rem !important;
 		margin-bottom: 2rem;
 		padding-left: 0rem !important;
@@ -117,21 +130,26 @@
 
 	.camlogo img {
 		width: 200px !important;
-		margin-top: 2rem !important;
+	}
+
+	.camlogo {
+		margin-left: 0 !important;
+		margin-top: 4% !important;
 	}
 
 	.donating {
 		margin-top: 0 !important;
-		margin-bottom: 3% !important;
+		margin-bottom: 4% !important;
 		margin-right: 0rem !important;
 		margin-left: 0px !important;
 		padding-left: 10%;
 		padding-right: 10%;
 	}
 
-	.donating h1 {
+	.dollar {
 		text-align: center;
 		font-size: 24pt;
+		margin-top: 0 !important;
 	}
 
 	.footer {
@@ -162,7 +180,7 @@
 		margin-right: 0rem !important;
 	}
 
-	.donating h1 {
+	.dollar {
 		font-size: 20pt;
 	}
 
@@ -288,7 +306,7 @@
 
 @media (max-width: 340px) {
 
-	.donating h1 {
+	.dollar {
 		font-size: 18pt;
 	}
 

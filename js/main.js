@@ -24,6 +24,21 @@ function sendSMS(form) {
     //     data: {
     //     }
     // };
+    
+    branch.sendSMS(
+    //phone: "9999999999",
+    {
+        tags: ['tag1', 'tag2'],
+        channel: 'facebook',
+        feature: 'dashboard',
+        stage: 'new user',
+        data: {
+            foo: 'bar'
+        }
+    },
+    { make_new_link: false }, // Default: false. If set to true, sendSMS will generate a new link even if one already exists.
+    function(err) { console.log(err); }
+);
     var options = {};
     var callback = function(err, result) {
         if (err) {
