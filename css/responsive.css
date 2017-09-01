@@ -267,6 +267,10 @@
 		font-size: 12pt !important;
 	}
 
+	.jomo-logo {
+		height: 175px !important;
+	}
+
 }
 
 @media (max-width: 413px) {
@@ -320,10 +324,6 @@
 	.time-logo-section, .time-logo-section h3, .jomo-logo {
 		margin-bottom: 2rem !important;
 	}
-
-	/*.jomo-logo {
-		height: 100px !important;
-	}*/
 
 	.time-logo-section h3 {
 		font-size: 28pt !important;
