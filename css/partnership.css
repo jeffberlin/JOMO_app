@@ -10,7 +10,7 @@
 .partnerships h1 {
 	text-align: center;
 	margin-top: 3rem;
-	margin-bottom: 2rem;
+	margin-bottom: 2.5rem;
 	color: #3a4b58;
 }
 
@@ -18,7 +18,11 @@
 	color: #696a6d;
 	font-size: 16pt;
 	font-family: "GT-Walsheim-Thin";
-	margin-bottom: 3rem;
+	margin-bottom: 2.5rem;
+}
+
+.text-center img {
+	margin-bottom: 2.5rem;
 }
 
 .partners {
