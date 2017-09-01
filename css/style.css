@@ -45,22 +45,17 @@ html, body {
 	margin-bottom: 0px;
 }
 
-.colon h1, .list h1, .partnerships h1, .bottom-info h2, .bottom-header h1, .map-info h1  {
+.time-logo-section h3, .partnerships h1, .bottom-info h2, .bottom-header h1, .map-info h1  {
 	font-family: "GT-Walsheim-Medium";
 	color: #3a4b58;
 }
 
-.map-info p, .bottom-info h5, footer p {
-	font-family: "UntitledSansTest-Light";
-	color: #696A6D;
-}
-
-#phone, #phone input, .header-under h4 {
+.header-under h4 {
 	font-family: "GT-Walsheim-Thin";
 	color: #3a4b58;
 }
 
-.sms-text, .header-under p {
+.sms-text, #phone, #phone input, .input-group-field::placeholder, .header-under p, .header-under input, .input-group-button input, .map-info p, .partnerships p, .bottom-info h5, footer p {
 	font-family: "UntitledSansTest-Light";
 	color: #696a6d;
 }

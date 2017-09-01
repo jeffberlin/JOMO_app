@@ -25,8 +25,6 @@
 }
 
 .time-logo-section h3 {
-	font-family: "GT-Walsheim-Medium";
-	color: #3a4b58;
 	font-size: 32pt;
 	margin-bottom: 4rem;
 }
@@ -80,15 +78,10 @@ form {
 	height: 100%;
 }
 
-.input-group-field::placeholder {
-	color: #696a6d;
-}
 
 .input-group-button input {
 	background-color: transparent;
 	border-radius: 10px;
-	color: #696a6d;
-	font-family: "GT-Walsheim-Thin";
 	font-weight: 900;
 	font-size: 14pt;
 	vertical-align: middle;
@@ -127,18 +120,14 @@ form {
 	border: 0;
 	border-radius: 0;
 	padding: 0;
-	color: #3a4b58;
+	/*color: #696a6d;*/
 	text-decoration: underline;
-	font-family: "GT-Walsheim-Thin";
+	/*font-family: "GT-Walsheim-Thin";*/
 	letter-spacing: 0.05em;
 	line-height: 1.46;
 	font-weight: 900;
 	outline: none;
 	margin-bottom: 1rem;
-}
-
-.header-under input::value {
-	color: white;
 }
 
 .downarrow img {
