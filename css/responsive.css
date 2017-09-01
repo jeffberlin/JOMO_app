@@ -123,21 +123,17 @@
 		padding-left: 10rem !important; 
 	}
 
-	/*.camlogo {
-		margin-left: 0 !important;
-		margin-top: 4% !important;
-	}*/
-
 	.donating {
 		margin-top: 0 !important;
-		margin-bottom: 4% !important;
+		/*margin-bottom: 4% !important;*/
 		margin-left: 0px !important;
+		background-color: #30cf83;
 	}
 
 	.dollar {
 		text-align: center;
 		font-size: 24pt;
-		margin-top: 0 !important;
+		margin-top: 1rem !important;
 		margin-left: 2rem !important;
 		margin-right: 2rem !important;
 	}
