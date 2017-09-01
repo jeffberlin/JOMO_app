@@ -9,16 +9,15 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-
 	text-align: center;
-	height: 101vh;
+	height: 115vh;
 	vertical-align: middle;
-	min-height: 580px;
+	/*min-height: 780px;*/
 }
 
 .time-logo-section {
 	vertical-align: middle;
-	margin: 15vh 0;
+	margin: 10vh 0;
 }
 
 .jomo-logo {
