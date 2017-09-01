@@ -60,8 +60,7 @@ html, body {
 	color: #3a4b58;
 }
 
-.time-logo-section h4 {
+.sms-text, .header-under p {
 	font-family: "UntitledSansTest-Light";
-	color: #3a4b58;
-	font-weight: 700;
+	color: #696a6d;
 }

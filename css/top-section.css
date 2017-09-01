@@ -9,6 +9,7 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+
 	text-align: center;
 	height: 101vh;
 	vertical-align: middle;
@@ -22,7 +23,6 @@
 
 .jomo-logo {
 	text-align: center;
-	height: 140px;
 	margin-bottom: 3rem;
 }
 
@@ -30,11 +30,16 @@
 	font-family: "GT-Walsheim-Medium";
 	color: #3a4b58;
 	font-size: 32pt;
-	margin-bottom: 2rem;
+	margin-bottom: 4rem;
+}
+
+.sms-text {
+	font-size: 16pt;
+	font-weight: 550;
 }
 
 form {
-	margin-top: 3rem;
+	margin-top: 2rem;
 	display: block;
 	position: relative;
 	min-width: 341px;
@@ -78,13 +83,13 @@ form {
 }
 
 .input-group-field::placeholder {
-	color: #3a4b58;
+	color: #696a6d;
 }
 
 .input-group-button input {
 	background-color: transparent;
 	border-radius: 10px;
-	color: #3a4b58;
+	color: #696a6d;
 	font-family: "GT-Walsheim-Thin";
 	font-weight: 900;
 	font-size: 14pt;
@@ -114,6 +119,11 @@ form {
 	margin-top: 2rem;
 }
 
+.header-under p {
+	font-size: 14pt;
+	font-weight: 550;
+}
+
 .header-under input {
 	background-color: transparent;
 	border: 0;
@@ -134,7 +144,7 @@ form {
 }
 
 .downarrow img {
-	width: 20px;
+	width: 30px;
 }
 
 .downarrow {

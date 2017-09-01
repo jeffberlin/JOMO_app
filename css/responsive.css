@@ -209,6 +209,10 @@
 		display: none;
 	}
 
+	.time-img img {
+		height: 60px !important;
+	}
+
 }
 
 @media (max-width: 579px) {
@@ -317,9 +321,9 @@
 		margin-bottom: 2rem !important;
 	}
 
-	.jomo-logo {
+	/*.jomo-logo {
 		height: 100px !important;
-	}
+	}*/
 
 	.time-logo-section h3 {
 		font-size: 28pt !important;
