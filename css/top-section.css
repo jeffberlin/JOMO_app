@@ -154,6 +154,9 @@ form {
 .time-img {
 	background-color: #30cf83;
 	text-align: center;
-	height: 250px;
-	vertical-align: middle;
+}
+
+.time-img img {
+	padding: 20px;
+	margin: 80px auto;
 }
