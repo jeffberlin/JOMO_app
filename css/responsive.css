@@ -209,7 +209,7 @@
 
 @media (max-width: 590px) {
 
-	.text-sms, .form-group, .time-logo-section h4 {
+	.text-sms, .form-group, .sms-text {
 		display: none;
 	}
 

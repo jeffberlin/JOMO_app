@@ -55,9 +55,9 @@ html, body {
 	color: #696A6D;
 }
 
-#phone, #phone input {
+#phone, #phone input, .header-under h4 {
 	font-family: "GT-Walsheim-Thin";
-	color: #696A6D;
+	color: #3a4b58;
 }
 
 .time-logo-section h4 {

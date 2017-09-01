@@ -112,13 +112,6 @@ form {
 
 .header-under {
 	margin-top: 2rem;
-	margin-bottom: .5rem;
-}
-
-.header-under h4 {
-	font-family: "GT-Walsheim-Thin";
-	color: #3a4b58;
-	
 }
 
 .header-under input {
@@ -133,6 +126,7 @@ form {
 	line-height: 1.46;
 	font-weight: 900;
 	outline: none;
+	margin-bottom: 1rem;
 }
 
 .header-under input::value {
@@ -150,6 +144,8 @@ form {
 .downarrow img:hover {
 	cursor: pointer;
 }
+
+/* Time : well spent logo section */
 
 .time-img {
 	background-color: #30cf83;
