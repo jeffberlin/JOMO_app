@@ -7,20 +7,17 @@
 }
 
 .camlogo {
-/*	margin-top: 10rem;
-*/	padding: 0;
-	vertical-align: middle;
-	text-align: center;
+	padding: 0;
 }
 
 .camlogo img {
-/*	width: 190px;
-*/	float: left;
+	float: left;
+	margin-top: 2rem;
 }
 
 .donating {
 	margin-top: 8rem;
-	margin-left: 6rem;
+	/*margin-left: 6rem;*/
 	vertical-align: middle;
 	padding: 0;
 }

@@ -18,10 +18,6 @@
 
 @media (max-width: 1199px) {
 
-	.donating {
-		padding-left: 10rem;
-	}
-
 	.map-info p {
 		font-size: 16pt !important;
 	}
@@ -42,13 +38,6 @@
 		font-size: 18pt !important;
 	}
 
-}
-
-@media (max-width: 1160px) {
-
-	.camlogo {
-		margin-left: 8rem !important;
-	}
 }
 
 @media (max-width: 1143px) {
@@ -134,14 +123,10 @@
 		padding-left: 10rem !important; 
 	}
 
-	.camlogo img {
-		width: 200px !important;
-	}
-
-	.camlogo {
+	/*.camlogo {
 		margin-left: 0 !important;
 		margin-top: 4% !important;
-	}
+	}*/
 
 	.donating {
 		margin-top: 0 !important;
@@ -155,10 +140,6 @@
 		margin-top: 0 !important;
 		margin-left: 2rem !important;
 		margin-right: 2rem !important;
-	}
-
-	.camkids img {
-		margin-top: 0 !important;
 	}
 
 	.footer {
@@ -185,14 +166,6 @@
 
 @media (max-width: 767px) {
 
-	.donating {
-		margin-right: 0rem !important;
-	}
-
-	.dollar {
-		font-size: 20pt;
-	}
-
 	.map-info h1 {
 		margin-top: 0rem !important;
 		margin-bottom: 0rem !important;
@@ -201,6 +174,14 @@
 	.map-info {
 		margin-top: 5rem !important;
 		margin-bottom: 5rem !important;
+	}
+
+	.donating {
+		margin-right: 0rem !important;
+	}
+
+	.dollar {
+		font-size: 20pt;
 	}
 
 	.phonemap img, .footer p, .footer a {
@@ -231,6 +212,7 @@
 	.text-sms, .form-group, .time-logo-section h4 {
 		display: none;
 	}
+
 }
 
 @media (max-width: 579px) {
@@ -273,13 +255,10 @@
 
 @media (max-width: 490px) {
 
-	.camlogo img {
-		width: 160px !important;
-	}
-
 	.dollar {
 		font-size: 18pt;
 	}
+
 }
 
 @media (max-width: 430px) {
