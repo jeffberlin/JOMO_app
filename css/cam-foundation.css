@@ -7,16 +7,15 @@
 }
 
 .camlogo {
-	margin-top: 10rem;
-	margin-bottom:3%;
-	margin-left: 13rem;
-	padding: 0;
+/*	margin-top: 10rem;
+*/	padding: 0;
 	vertical-align: middle;
 	text-align: center;
 }
 
 .camlogo img {
-	width: 190px;
+/*	width: 190px;
+*/	float: left;
 }
 
 .donating {
@@ -28,7 +27,7 @@
 
 .dollar {
 	font-family: "GT-Walsheim-Medium";
-	color: #e0e645;
+	color: #ffffff;
 	letter-spacing: .75px;
 	padding-bottom: 15px;
 	line-height: 130%;
@@ -45,22 +44,4 @@
 	font-family: "GT-Walsheim-Medium";
 	color: #ffffff;
 	margin-top: 3rem;
-}
-
-.joy {
-	font-family: "GT-Walsheim-Medium";
-}
-
-.camkids {
-	margin-bottom: 0 !important;
-	float: right;
-	vertical-align: bottom;
-	display: flex;
-	padding: 0;
-}
-
-.camkids img {
-	height: 400px;
-	margin-top: 3rem;
-	margin-right: 0;
 }
