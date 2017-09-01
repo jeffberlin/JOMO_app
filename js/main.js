@@ -22,7 +22,6 @@ function sendSMS(form) {
         feature: '',
         stage: '',
         data: {
-            foo: 'bar'
         }
     };
     
