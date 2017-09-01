@@ -150,11 +150,10 @@ form {
 .time-img {
 	background-color: #30cf83;
 	text-align: center;
-	height: 165px;
 }
 
 .time-img img {
 	padding: 10px;
-	margin: 10px auto;
+	margin: 30px auto;
 	height: fit-content;
 }
