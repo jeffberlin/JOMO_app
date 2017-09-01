@@ -18,9 +18,9 @@ function sendSMS(form) {
     var phone = form.phone.value;
     var linkData = {
         tags: [],
-        channel: 'facebook',
+        channel: 'SMS',
         feature: '',
-        stage: 'new user',
+        stage: '',
         data: {
             foo: 'bar'
         }
