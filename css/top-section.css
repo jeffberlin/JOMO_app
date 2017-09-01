@@ -78,7 +78,6 @@ form {
 	height: 100%;
 }
 
-
 .input-group-button input {
 	background-color: transparent;
 	border-radius: 10px;
@@ -120,9 +119,7 @@ form {
 	border: 0;
 	border-radius: 0;
 	padding: 0;
-	/*color: #696a6d;*/
 	text-decoration: underline;
-	/*font-family: "GT-Walsheim-Thin";*/
 	letter-spacing: 0.05em;
 	line-height: 1.46;
 	font-weight: 900;

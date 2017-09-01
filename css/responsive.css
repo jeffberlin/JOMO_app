@@ -45,6 +45,7 @@
 	.dollar {
 		font-size: 24pt;
 	}
+
 }
 
 
@@ -61,6 +62,7 @@
 	.map-info h1 {
 		font-size: 28pt !important;
 	}
+
 }
 
 @media (max-width: 991px) {
@@ -125,7 +127,6 @@
 
 	.donating {
 		margin-top: 0 !important;
-		/*margin-bottom: 4% !important;*/
 		margin-left: 0px !important;
 		background-color: #30cf83;
 	}
