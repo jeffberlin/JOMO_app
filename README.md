@@ -1,6 +1,8 @@
 # JOMO
 Webpage for JOMO, Inc.
 
+https://www.jomoapp.com
+
 ## To download and run:
 * Either 'clone' or download the .zip files
 * Open the browser of your choice
