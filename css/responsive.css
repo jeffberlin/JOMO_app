@@ -268,7 +268,11 @@
 	}
 
 	.jomo-logo {
-		height: 175px !important;
+		height: 150px !important;
+	}
+
+	.time-logo-section h3 {
+		font-size: 30pt !important;
 	}
 
 }
