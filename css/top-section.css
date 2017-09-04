@@ -45,7 +45,9 @@ form {
 .form-group {
 	position: relative;
 	margin-bottom: 20px;
-	width: 375px;
+	width: 342px;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
 .form-group input {
@@ -59,6 +61,7 @@ form {
 	font-size: 18pt;
 	letter-spacing: .95px;
 	text-align: left;
+	width: 248px;
 }
 
 .input-group {
