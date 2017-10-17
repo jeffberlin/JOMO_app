@@ -1,0 +1,129 @@
+@font-face {
+	font-family: GT-Walsheim-Medium;
+	src: url(GT-Walsheim-Pro-Trial-Medium.otf);
+}
+
+@font-face {
+	font-family: GT-Walsheim-Thin;
+	src: url(GT-Walsheim-Pro-Trial-Thin.otf);
+}
+
+@font-face {
+	font-family: GT-Walsheim-Oblique;
+	src: url(GT-Walsheim-Pro-Trial-Light-Oblique.otf);
+}
+
+@font-face {
+	font-family: SourceSansPro-Light;
+	src: url(SourceSansPro-Light.otf);
+}
+
+@font-face {
+	font-family: UntitledSansTest-Bold;
+	src: url(UntitledSansTest-Bold.otf);
+}
+
+@font-face {
+	font-family: UntitledSansTest-Light;
+	src: url(UntitledSansTest-Light.otf);
+}
+
+@font-face {
+	font-family: UntitledSansTest-Medium;
+	src: url(UntitledSansTest-Medium.otf);
+}
+
+@font-face {
+	font-family: Helvetica;
+	src: url(Helvetica.dfont);
+}
+
+html, body {
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.main {
+	padding: 0;
+}
+
+.main img {
+	min-width: 100%;
+	min-height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.bottom {
+	background-color: #3a4b58;
+}
+
+.bottom h1 {
+	/*font-family: 'GT-Walsheim-Medium';*/
+	/*font-family: 'Helvetica';*/
+	color: #fff;
+	font-size: 46pt;
+	margin-top: 8rem;
+	margin-bottom: 4rem;
+}
+
+.bottom h3 {
+	color: #fff;
+	font-family: 'UntitledSansTest-Light';
+	line-height: 175%;
+	margin-bottom: 3.5rem;
+	font-size: 16pt;
+}
+
+.bottom img {
+	margin-top: 2rem;
+	width: 400px;
+}
+
+.bottom {
+	padding-bottom: 8rem;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 465px) {
+
+	.bottom img {
+		width: 350px;
+	}
+
+}
+
+@media (max-width: 439px) {
+
+	.bottom h1 {
+		font-size: 34pt;
+	}
+
+	.bottom h3 {
+		font-size: 14pt;
+	}
+
+}
+
+@media (max-width: 370px) {
+
+	.bottom img {
+		width: 300px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+}
+
+@media (max-width: 335px) {
+
+	.bottom h1 {
+		font-size: 28pt;
+	}
+
+	.bottom h3 {
+		font-size: 12pt;
+	}
+
+}
