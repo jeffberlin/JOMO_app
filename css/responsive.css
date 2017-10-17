@@ -63,6 +63,11 @@
 		font-size: 28pt !important;
 	}
 
+	.partnerships p {
+		padding-right: 8rem !important;
+		padding-left: 8rem !important;
+	}
+
 }
 
 @media (max-width: 991px) {
@@ -209,6 +214,11 @@
 		height: 60px !important;
 	}
 
+	.partnerships p {
+		padding-left: 2rem !important;
+		padding-right: 2rem !important;
+	}
+
 }
 
 @media (max-width: 579px) {
@@ -335,6 +345,11 @@
 
 	.time-logo-section h3 {
 		font-size: 26pt !important;
+	}
+
+	.partnerships p {
+		padding-left: 1rem !important;
+		padding-right: 1rem !important;
 	}
 
 }
