@@ -314,5 +314,21 @@ html, body {
 	.section {
 		margin-left: 0rem !important;
 	}
-	
+
+}
+
+.prizes-button {
+	margin-bottom: 5rem;
+	/*margin-top: 1rem;*/
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0.8px;
+	line-height: 24px;
+	text-shadow: 0 1px 1px #23AB6A;
+	background: #30CF83;
+	border-radius: 4px;
+	padding: 1.5rem;
+	font-family: 'UntitledSansTest-Medium';
+	outline: none;
+	border: none;
 }
