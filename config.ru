@@ -17,52 +17,65 @@ end
 
 map "/terms" do
   run lambda { |env|
-  [
-    200,
-    {
-      'Content-Type'  => 'text/html',
-      'Cache-Control' => 'public, max-age=86400'
-    },
-    File.open('public/terms/index.html', File::RDONLY)
-  ]
-}
+    [
+      200,
+      {
+        'Content-Type'  => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/terms/index.html', File::RDONLY)
+    ]
+  }
 end
 
 map "/partners" do
   run lambda { |env|
-  [
-    200,
-    {
-      'Content-Type'  => 'application/pdf',
-      'Cache-Control' => 'public, max-age=86400'
-    },
-    File.open('public/docs/partners.pdf', File::RDONLY)
-  ]
-}
+    [
+      200,
+      {
+        'Content-Type'  => 'application/pdf',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/docs/partners.pdf', File::RDONLY)
+    ]
+  }
 end
 
 map "/giveaway" do
   run lambda { |env|
-  [
-    200,
-    {
-      'Content-Type'  => 'text/html',
-      'Cache-Control' => 'public, max-age=86400'
-    },
-    File.open('public/giveaway.html', File::RDONLY)
-  ]
-}
+    [
+      200,
+      {
+        'Content-Type'  => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/giveaway.html', File::RDONLY)
+    ]
+  }
 end
 
 map "/charlotte" do
   run lambda { |env|
-  [
-    200,
-    {
-      'Content-Type'  => 'text/html',
-      'Cache-Control' => 'public, max-age=86400'
-    },
-    File.open('public/charlotte.html', File::RDONLY)
-  ]
-}
+    [
+      200,
+      {
+        'Content-Type'  => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/charlotte.html', File::RDONLY)
+    ]
+  }
+end
+
+map "/rules" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type'  => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/rules.html', File::RDONLY)
+    ]
+  }
 end
