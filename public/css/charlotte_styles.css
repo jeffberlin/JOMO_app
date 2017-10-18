@@ -304,6 +304,34 @@ html, body {
 
 /* RULES PAGE */
 
+.rules {
+	border: .2rem solid #23AB6A;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+.rules img {
+	margin-bottom: 5rem;
+	margin-top: 5rem;
+}
+
+.section {
+	margin-left: 2rem;
+}
+
+.section h3 {
+	font-family: 'GT-Walsheim-Medium';
+	color: #3a4b58;
+}
+
+.main p, .section p {
+	font-family: 'UntitledSansTest-Light';
+	color: #696a6d;
+	font-size: 14pt;
+	font-weight: 400;
+	letter-spacing: .8px;
+}
+
 @media (max-width: 767px) {
 
 	.main p {
@@ -315,20 +343,4 @@ html, body {
 		margin-left: 0rem !important;
 	}
 
-}
-
-.prizes-button {
-	margin-bottom: 5rem;
-	/*margin-top: 1rem;*/
-	font-size: 16px;
-	color: #FFFFFF;
-	letter-spacing: 0.8px;
-	line-height: 24px;
-	text-shadow: 0 1px 1px #23AB6A;
-	background: #30CF83;
-	border-radius: 4px;
-	padding: 1.5rem;
-	font-family: 'UntitledSansTest-Medium';
-	outline: none;
-	border: none;
 }
