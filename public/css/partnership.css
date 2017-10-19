@@ -46,7 +46,6 @@ a {
 
 .prizes-button {
 	margin-bottom: 5rem;
-	/*margin-top: 1rem;*/
 	font-size: 16px;
 	color: #FFFFFF;
 	letter-spacing: 0.8px;
@@ -58,4 +57,11 @@ a {
 	font-family: 'UntitledSansTest-Medium';
 	outline: none;
 	border: none;
+	display: inline-block;
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: 400;
+    touch-action: manipulation;
+    cursor: pointer;
 }
