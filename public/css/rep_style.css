@@ -1,0 +1,557 @@
+/* colors: green #30cf83, blue #3a4b58, dark blue #211d3d, light grey #d2d4d3, dark grey #696a6d */
+
+@font-face {
+	font-family: GT-Walsheim-Medium;
+	src: url(GT-WALSHEIM-PRO-MEDIUM_0.TTF);
+}
+
+@font-face {
+	font-family: GT-Walsheim-Thin;
+	src: url(GT-Walsheim-Pro-Trial-Thin.otf);
+}
+
+@font-face {
+	font-family: GT-Walsheim-Oblique;
+	src: url(GT-Walsheim-Pro-Trial-Light-Oblique.otf);
+}
+
+@font-face {
+	font-family: SourceSansPro-Light;
+	src: url(SourceSansPro-Light.otf);
+}
+
+@font-face {
+	font-family: UntitledSansTest-Bold;
+	src: url(UntitledSansTest-Bold.otf);
+}
+
+@font-face {
+	font-family: UntitledSansTest-Light;
+	src: url(UntitledSansTest-Light.otf);
+}
+
+@font-face {
+	font-family: UntitledSansTest-Medium;
+	src: url(UntitledSansTest-Medium.otf);
+}
+
+a {
+	text-decoration: none !important;
+}
+
+html, body {
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.header h3, .map-info h1, .job-details h1, .job-details h3, .form-group label {
+	font-family: 'GT-Walsheim-Medium';
+	color: #3a4b58;
+}
+
+.header p, .map-info p, .job-details p, .form-control {
+	font-family: 'UntitledSansTest-Light';
+	color: #696a6d;
+}
+
+/* TOP SECTION */
+
+.top-section {
+	height: 110vh;
+    background-image: linear-gradient(rgba(251, 251, 251, 0.7), rgb(251, 251, 251) 85%), url(../images/jomo_rep_uncw_background_min.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: initial, initial;
+    background-repeat-y: initial, initial;
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+    min-height: 600px;
+}
+
+.header {
+	margin-top: 10vh;
+}
+
+.jomo-logo {
+	margin-bottom: 3rem;
+}
+
+.app-store {
+	margin-bottom: 3rem;
+}
+
+.play-store {
+	width: 165px;
+	display: inline-block;
+	margin: .5rem;
+}
+
+.header h3 {
+	font-size: 32pt;
+}
+
+.header p {
+	font-size: 16pt;
+	font-weight: 550;
+	letter-spacing: .75px;
+}
+
+.learn-button {
+	font-family: "UntitledSansTest-Light";
+	color: #696a6d;
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+	text-decoration: underline;
+	letter-spacing: 0.05em;
+	line-height: 1.46;
+	font-weight: 900;
+	outline: none;
+	margin-bottom: 1rem;
+}
+
+/* About JOMO section */
+
+.time-img {
+	background-color: #30cf83;
+	text-align: center;
+	/*padding-top: 4rem;
+	padding-bottom: 4rem;*/
+}
+
+.time-img img {
+	padding: 15px;
+	margin: 3rem auto;
+	height: fit-content;
+}
+
+.about-jomo h1 {
+	font-family: 'GT-Walsheim-Medium';
+	color: #ffffff;
+	font-size: 30pt;
+}
+
+.about-jomo p {
+	font-family: 'UntitledSansTest-Light';
+	color: #ffffff;
+	font-size: 16pt;
+	font-weight: 550;
+	letter-spacing: .75px;
+}
+
+/* Map section */
+
+.map {
+	background-image: url('../images/jomo_charlotte_map_pins_min.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 1px solid #30cf83;
+	margin-top: -5px;
+	width: 100%;
+	display: flex;
+}
+
+.phonemap img {
+	width: 300px;
+	margin-top: 82px;
+}
+
+.phonemap {
+	padding: 0;
+}
+
+.map-info {
+	margin-top: 16rem;
+	vertical-align: middle;
+	padding: 0;
+}
+
+.map-info h1 {
+	font-size: 30pt;
+}
+
+.map-info p {
+	font-size: 18pt;
+	font-weight: 550;
+	margin-top: 20px;
+}
+
+/* JOB-DETAILS SECTION */
+
+.job-details {
+	background-color: #f5f5f5;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.job-details h1 {
+	margin-bottom: 3rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-align: center;
+}
+
+.job-details p {
+	font-weight: 550;
+	letter-spacing: .75px;
+	font-size: 16pt;
+}
+
+.job-details ul {
+	margin-bottom: 4rem;
+}
+
+.job-details h3 {
+	font-size: 20pt;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+/* INSTRUCTIONS SECTION */
+
+.instructions {
+	background-color: #3a4b58;
+	padding-bottom: 4rem;
+}
+
+.instructions h1 {
+	font-family: 'GT-Walsheim-Medium';
+	color: #ffffff;
+	font-size: 30pt;
+	margin-top: 6rem;
+	margin-bottom: 3rem;
+	margin-right: 2rem;
+	margin-left: 2rem;
+}
+
+.instructions h1, .instructions h4, .instructions li {
+	color: #ffffff;
+}
+
+.instructions h1, .instructions h4 {
+	text-align: center;
+}
+
+.instructions h4 {
+	font-size: 14pt;
+	letter-spacing: .75px;
+}
+
+.instructions h4, .instructions li {
+	font-family: 'UntitledSansTest-Light';
+	letter-spacing: .75px;
+}
+
+.intructions-list li {
+    margin: 2rem 0;
+    font-size: 16pt;
+    font-weight: 550;
+}
+
+/* SIGNUP FORM */
+
+.sign-up {
+	padding-top: 6rem;
+}
+
+.sign-up h1 {
+	font-family: 'GT-Walsheim-Medium';
+	color: #30cf83;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 32pt;
+	text-shadow: 0 1px 1px #23AB6A;
+}
+
+form {
+	margin-top: 3rem;
+}
+
+.form-group {
+	margin-bottom: 3rem;
+}
+
+.form-group label {
+	font-size: 14pt;
+	letter-spacing: .75px;
+}
+
+.form-control::placeholder, .form-control  {
+	font-family: 'UntitledSansTest-Light';
+	letter-spacing: .75px;
+}
+
+input, textarea {
+	outline: none;
+	border: 1px solid #696a6d;
+}
+
+.submit-button {
+	margin-bottom: 5rem;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0.8px;
+	line-height: 24px;
+	text-shadow: 0 1px 1px #23AB6A;
+	background: #30CF83;
+	border-radius: 4px;
+	padding: 1.5rem;
+	font-family: 'UntitledSansTest-Medium';
+	outline: none;
+	border: none;
+	display: inline-block;
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: 400;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+
+.sign-up p {
+	padding-bottom: 5rem;
+	font-family: 'UntitledSansTest-Light';
+	color: #696a6d;
+	font-size: 16pt;
+	font-weight: 550;
+}
+
+#email-address {
+	color: #30cf83;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 1199px) {
+
+	.map-info p {
+		font-size: 16pt !important;
+	}
+
+}
+
+@media (max-width: 1169px) {
+
+	.phonemap h1 {
+		font-size: 28pt;
+	}
+
+	.phonemap p {
+		font-size: 18pt !important;
+	}
+
+}
+
+@media (max-width: 1131px) {
+
+	.map-info h1, .map-info p {
+		margin-left: 5rem !important;
+	}
+
+}
+
+@media (max-width: 1047px) {
+
+	.map-info h1 {
+		font-size: 28pt !important;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	#play-img, #ios-img {
+		padding-right: 0px !important;
+	}
+
+	#ios-img {
+		margin-right: 10px;
+	}
+
+	.phonemap {
+		text-align: center;
+	}
+
+	.phonemap img {
+		margin-top: 12px !important;
+	}
+
+	.map-info {
+		margin-bottom: 2rem !important;
+		margin-top: 2rem !important;
+		margin-left: 0rem !important;
+		padding-left: 1rem !important;
+		padding-right: 1rem !important;
+		text-align: center;
+	}
+
+	.map-info h1, .map-info p {
+		margin-left: 0 !important;
+	}
+
+	.map-info p {
+		padding-right: 1rem !important;
+		padding-left: 1rem !important; 
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.map-info {
+		margin-top: 5rem !important;
+		margin-bottom: 5rem !important;
+	}
+
+	.map-info h1 {
+		margin-top: 0rem !important;
+		margin-bottom: 0rem !important;
+	}
+
+	.phonemap img {
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 686px) {
+
+	.map-info h1 {
+		font-size: 24pt !important;
+	}
+
+	.map-info p {
+		font-size: 14pt !important;
+	}
+
+}
+
+@media (max-width: 609px) {
+
+	.instructions h1 {
+		font-size: 26pt;
+	}
+
+}
+
+@media (max-width: 590px) {
+
+	.time-img img {
+		height: 60px !important;
+	}
+
+	.submit-button {
+		font-size: 14px;
+		padding: 1rem;
+	}
+
+}
+
+@media (max-width: 557px) {
+
+	.map-info h1 {
+		font-size: 22pt !important;
+	}
+
+	.map-info p {
+		font-size: 13pt !important;
+	}
+
+}
+
+@media (max-width: 531px) {
+
+	.job-details h1 {
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+}
+
+@media (max-width: 512px) {
+
+	.map-info h1 {
+		font-size: 20pt !important;
+	}
+
+	.instructions li {
+		font-size: 14pt;
+	}
+
+}
+
+@media (max-width: 493px) {
+
+	.job-details h1 {
+		font-size: 24pt !important;
+	}
+
+	.job-details h3 {
+		font-size: 18pt;
+	}
+
+	.job-details p {
+		font-size: 12pt;
+	}
+
+}
+
+@media (max-width: 430px) {
+
+	.jomo-logo {
+		height: 150px !important;
+	}
+
+	.header h3 {
+		font-size: 30pt !important;
+	}
+
+	.instructions ul {
+		padding-left: 1rem;
+	}
+
+}
+
+@media (max-width: 359px) {
+
+	#ios-img {
+		margin-right: 0 !important;
+	}
+
+	.instructions li, .instructions h4 {
+		font-size: 12pt;
+	}
+
+}
+
+@media (max-width: 333px) {
+
+	.header {
+		margin: 9vh 0 !important;
+	}
+
+	.jomo-logo, .header h3 {
+		margin-bottom: 2rem !important;
+	}
+	
+	.jomo-logo {
+		height: 130px !important;
+	}
+
+	.header h3 {
+		font-size: 26pt !important;
+	}
+
+	#ios-img, #play-img {
+		padding: 0 !important;
+	}
+
+}
